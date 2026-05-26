@@ -2,6 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="WindowTitleConfig">设置</system:String>
+    <system:String x:Key="WindowTitleLanguagePriority">船名显示语言优先级</system:String>
     <system:String x:Key="WindowTitleTomatoRadar">番茄雷达</system:String>
 
     <system:String x:Key="DataGridHeaderPlayer">玩家</system:String>
@@ -31,6 +32,7 @@
     <system:String x:Key="BtnInsert">插入</system:String>
     <system:String x:Key="BtnBrowse">浏览</system:String>
     <TextBlock x:Key="BtnCheckForUpdates" TextAlignment="Center">检查更新</TextBlock>
+    <system:String x:Key="BtnConfigure">设置</system:String>
     <system:String x:Key="BtnRefresh">刷新</system:String>
     <system:String x:Key="BtnOpen">打开Replay</system:String>
     <system:String x:Key="BtnConfig">设置</system:String>
@@ -372,7 +374,7 @@
     <system:String x:Key="NotificationMessageDataRetrieved">数据获取成功。</system:String>
     <system:String x:Key="NotificationMessageFileError">打开的文件不是合法的tempArenaInfo.json或.wowsreplay文件。</system:String>
     <system:String x:Key="NotificationMessageServerAutoDetectionFailed">自动检测游戏服务器失败，请在设置中手动选择游戏服务器。</system:String>
-    <system:String x:Key="NotificationMessageConnectionError">与Wargaming API的网络连接失败，请检查您的网络连接或稍后再试。</system:String>
+    <system:String x:Key="NotificationMessageConnectionError">与API的网络连接失败，请检查您的网络连接或稍后再试。</system:String>
     <system:String x:Key="NotificationMessageJsonError">获取的数据格式不正确，请检查您的网络连接或稍后再试。</system:String>
     <system:String x:Key="NotificationMessageOtherError">发生了一个错误，请查看/Log/文件夹中的日志文件获取更多信息。</system:String>
     <system:String x:Key="NotificationMessageRetrying">重试中。第</system:String>

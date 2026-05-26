@@ -61,7 +61,7 @@ namespace TomatoRadar
             TxtWeightedWinrateShipBattlesAtMaxWeight.Text = Properties.Settings.Default.WeightedWinrateShipBattlesAtMaxWeight.ToString();
             TxtDelimiter.Text = Properties.Settings.Default.OutputTextDelimiter;
             ComboBoxServer.SelectedValue = Properties.Settings.Default.Server;
-            PopulateShipNameLanguagePriorityList();
+            BtnShipNameLanguagePriority.Content = System.Windows.Application.Current.FindResource("BtnConfigure");
             ChkBoxCheckForUpdatesOnStartup.IsChecked = Properties.Settings.Default.CheckForUpdatesOnStartup;
             LabelShipListVersionDateStr.Content = $"{ShipInfoUtils.GetShipInfoVersion(Server.EU)} ({ShipInfoUtils.GetShipInfoDate(Server.EU)})";
         }
@@ -360,66 +360,16 @@ namespace TomatoRadar
             Process.Start("explorer.exe", $"https://profile.{ServerExt.GetFullUrlStringByServer(p!.Server)}/statistics/{p.ID}/");
         }
 
-        private void PopulateShipNameLanguagePriorityList()
+        private void BtnShipNameLanguagePriority_Click(object sender, RoutedEventArgs e)
         {
-            string priority = Properties.Settings.Default.ShipNameLanguage;
-            List<Language> languages = LanguageExt.ParsePriority(priority);
-            bool isAuto = priority == "AUTO";
-
-            ListBoxShipNameLanguagePriority.Items.Clear();
-            foreach (Language lang in languages)
+            LanguagePriorityWindow window = new(Properties.Settings.Default.ShipNameLanguage)
             {
-                if (lang == Models.Language.AUTO)
-                    continue;
-                ListBoxShipNameLanguagePriority.Items.Add(new ListItem
-                {
-                    Content = System.Windows.Application.Current.FindResource($"ComboBoxItemLanguageName{LanguageExt.GetNameByLanguage(lang)}"),
-                    Value = LanguageExt.GetNameByLanguage(lang),
-                });
-            }
-
-            BtnShipNameLanguageAuto.IsEnabled = !isAuto;
-        }
-
-        private void PersistShipNameLanguagePriority()
-        {
-            List<Language> priority = GetCurrentPriorityFromListBox();
-            Properties.Settings.Default.ShipNameLanguage = LanguageExt.FormatPriority(priority);
-        }
-
-        private List<Language> GetCurrentPriorityFromListBox()
-        {
-            List<Language> languages = new();
-            foreach (ListItem item in ListBoxShipNameLanguagePriority.Items)
+                Owner = this
+            };
+            window.ShowDialog();
+            if (window.WasSaved && window.ResultPriority != null)
             {
-                languages.Add(LanguageExt.GetLanguageByName(item.Value.ToString()!));
-            }
-            return languages;
-        }
-
-        private void BtnShipNameLanguageUp_Click(object sender, RoutedEventArgs e)
-        {
-            int idx = ListBoxShipNameLanguagePriority.SelectedIndex;
-            if (idx > 0)
-            {
-                object item = ListBoxShipNameLanguagePriority.Items[idx];
-                ListBoxShipNameLanguagePriority.Items.RemoveAt(idx);
-                ListBoxShipNameLanguagePriority.Items.Insert(idx - 1, item);
-                ListBoxShipNameLanguagePriority.SelectedIndex = idx - 1;
-                PersistShipNameLanguagePriority();
-            }
-        }
-
-        private void BtnShipNameLanguageDown_Click(object sender, RoutedEventArgs e)
-        {
-            int idx = ListBoxShipNameLanguagePriority.SelectedIndex;
-            if (idx >= 0 && idx < ListBoxShipNameLanguagePriority.Items.Count - 1)
-            {
-                object item = ListBoxShipNameLanguagePriority.Items[idx];
-                ListBoxShipNameLanguagePriority.Items.RemoveAt(idx);
-                ListBoxShipNameLanguagePriority.Items.Insert(idx + 1, item);
-                ListBoxShipNameLanguagePriority.SelectedIndex = idx + 1;
-                PersistShipNameLanguagePriority();
+                Properties.Settings.Default.ShipNameLanguage = window.ResultPriority;
             }
         }
 
@@ -447,11 +397,6 @@ namespace TomatoRadar
             Properties.Settings.Default.WatchIcon = TxtWatchIcon.Text;
         }
 
-        private void BtnShipNameLanguageAuto_Click(object sender, RoutedEventArgs e)
-        {
-            Properties.Settings.Default.ShipNameLanguage = "AUTO";
-            PopulateShipNameLanguagePriorityList();
-        }
 
         private async void BtnCheckForUpdates_Click(object sender, RoutedEventArgs e)
         {

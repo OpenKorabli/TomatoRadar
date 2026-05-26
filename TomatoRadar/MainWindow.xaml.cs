@@ -242,15 +242,19 @@ namespace TomatoRadar
             NotificationMessageUtils.InitializeNotificationMessageDataGrid(DataGridNotificationMessages);
             NetworkUtils.InitializeHttpClient();
 
-            string shipInfoPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Resources\Json\ships.json");
+            string shipInfoPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Resources\Json\ships_wg.json");
+            string shipInfoPathLesta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Resources\Json\ships_lesta.json");
             ShipInfoUtils.RegisterShipInfoFile(Server.EU, shipInfoPath);
             ShipInfoUtils.RegisterShipInfoFile(Server.NA, shipInfoPath);
             ShipInfoUtils.RegisterShipInfoFile(Server.ASIA, shipInfoPath);
-            // TODO: RU ship list may differ from other servers. Currently using the same file.
-            ShipInfoUtils.RegisterShipInfoFile(Server.RU, shipInfoPath);
+            ShipInfoUtils.RegisterShipInfoFile(Server.CN, shipInfoPath);
+            ShipInfoUtils.RegisterShipInfoFile(Server.RU, shipInfoPathLesta);
             ShipInfoUtils.LoadShipInfoForServer(Server.EU);
+            ShipInfoUtils.LoadShipInfoForServer(Server.RU);
             LogUtils.WriteInfo($"ShipInfoFileVersion: {ShipInfoUtils.GetShipInfoVersion(Server.EU)}");
             LogUtils.WriteInfo($"ShipInfoFileDate: {ShipInfoUtils.GetShipInfoDate(Server.EU)}");
+            LogUtils.WriteInfo($"ShipInfoFileVersion(RU): {ShipInfoUtils.GetShipInfoVersion(Server.RU)}");
+            LogUtils.WriteInfo($"ShipInfoFileDate(RU): {ShipInfoUtils.GetShipInfoDate(Server.RU)}");
 
             SoftwareUpdateUtils.CleanOldVersionFiles();
 

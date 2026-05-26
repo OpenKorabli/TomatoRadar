@@ -63,9 +63,12 @@
     <None Update="README.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Resources\Json\ships.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Update="Resources\Json\ships_wg.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Json\ships_lesta.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     <None Update="Resources\Json\ships_en-us.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

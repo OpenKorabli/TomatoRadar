@@ -2,6 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="WindowTitleConfig">Config</system:String>
+    <system:String x:Key="WindowTitleLanguagePriority">Ship Name Language Priority</system:String>
     <system:String x:Key="WindowTitleTomatoRadar">Tomato Radar</system:String>
 
     <system:String x:Key="DataGridHeaderPlayer">Player</system:String>
@@ -31,6 +32,7 @@
     <system:String x:Key="BtnInsert">Insert</system:String>
     <system:String x:Key="BtnBrowse">Browse</system:String>
     <TextBlock x:Key="BtnCheckForUpdates" TextAlignment="Center">Check<LineBreak/>for Updates</TextBlock>
+    <system:String x:Key="BtnConfigure">Configure</system:String>
     <system:String x:Key="BtnRefresh">Refresh</system:String>
     <system:String x:Key="BtnOpen">Open Replay</system:String>
     <system:String x:Key="BtnConfig">Config</system:String>
