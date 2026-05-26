@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TomatoRadar.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SoftwareVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2.1.0</Value>
+    </Setting>
+    <Setting Name="SoftwareDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">20230624</Value>
+    </Setting>
+    <Setting Name="SettingsUpgradeDone" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AUTO</Value>
+    </Setting>
+    <Setting Name="SecondaryServerEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SecondaryServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EU</Value>
+    </Setting>
+    <Setting Name="GamePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AUTO</Value>
+    </Setting>
+    <Setting Name="ShipNameLanguage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AUTO</Value>
+    </Setting>
+    <Setting Name="MaximumRetryAttemptsOnError" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="CheckForUpdatesOnStartup" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ColorStyle" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="TomatoIcon" Type="System.String" Scope="User">
+      <Value Profile="(Default)">🍅</Value>
+    </Setting>
+    <Setting Name="UnicumIcon" Type="System.String" Scope="User">
+      <Value Profile="(Default)">🏅</Value>
+    </Setting>
+    <Setting Name="HiddenIcon" Type="System.String" Scope="User">
+      <Value Profile="(Default)">🚫</Value>
+    </Setting>
+    <Setting Name="WatchIcon" Type="System.String" Scope="User">
+      <Value Profile="(Default)">⚠️</Value>
+    </Setting>
+    <Setting Name="AccountWinrateVisibility" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WeightedWinrateVisibility" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ShipWinrateVisibility" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="TagVisibility" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="AccountAvgExpVisibility" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ShipAvgExpVisibility" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="ShipAvgDmgVisibility" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="PlayerColumnFontSize" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">18</Value>
+    </Setting>
+    <Setting Name="StatisticsColumnFontSize" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">16</Value>
+    </Setting>
+    <Setting Name="DetailedStatisticsFontSize" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">16</Value>
+    </Setting>
+    <Setting Name="OutputTextFontSize" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">14</Value>
+    </Setting>
+    <Setting Name="EnemiesDisplayMirrored" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PlayerListSortBy" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="PlayerNamesVisibility" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WinrateChartType" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="WinrateTypeUsed" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="TomatoWinrateThreshold" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">47</Value>
+    </Setting>
+    <Setting Name="TomatoBattleCountThreshold" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="UnicumWinrateThreshold" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">58</Value>
+    </Setting>
+    <Setting Name="UnicumBattleCountThreshold" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+    <Setting Name="WeightedWinrateAccountSoloWeightMultiplier" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="WeightedWinrateAccountDiv2WeightMultiplier" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="WeightedWinrateAccountDiv3WeightMultiplier" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WeightedWinrateShipMaxWeight" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="WeightedWinrateShipBattlesAtMaxWeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="OutputTextTemplateGeneralStatistics" Type="System.String" Scope="User">
+      <Value Profile="(Default)">我方上等马：{AllyUnicumList}。我方下等马：{AllyTomatoList}。我方隐藏马：{AllyHiddenList}。敌方上等马：{EnemyUnicumList}。敌方下等马：{EnemyTomatoList}。敌方隐藏马：{EnemyHiddenList}。战绩插件加群1012624096。</Value>
+    </Setting>
+    <Setting Name="OutputTextDelimiter" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="OutputTextShortMode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OutputTextExcludeSelf" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OutputTextUnlock" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OutputTextAutoCopy" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OutputTextTemplateParticularPlayerStatistics" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{ClanTag} {PlayerName}（{ShipName}），账号{AccountBattles}场 {AccountWinrate}胜率，单船{ShipBattles}场 {ShipWinrate}胜率 {ShipAvgDmg}场均。战绩插件加群1012624096。</Value>
+    </Setting>
+    <Setting Name="APITypeSelectionDefault" Type="System.String" Scope="User">
+      <Value Profile="(Default)">VORTEX</Value>
+    </Setting>
+    <Setting Name="APITypeSelectionRU" Type="System.String" Scope="User">
+      <Value Profile="(Default)">VORTEX</Value>
+    </Setting>
+    <Setting Name="APITypeSelectionCN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">VORTEX</Value>
+    </Setting>
+    <Setting Name="YuyukoAPIPushEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DebugMode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

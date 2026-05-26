@@ -1,0 +1,4899 @@
+{
+	"version": "12.5",
+	"date": "20230624",
+	"ships": {
+		"3256759600": {
+			"name_en-us": "Södermanland",
+			"name_zh-cn": "南曼兰",
+			"nation": "europe",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3256760112": {
+			"name_en-us": "Lübeck",
+			"name_zh-cn": "吕贝克",
+			"nation": "germany",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3256792528": {
+			"name_en-us": "Petrozavodsk",
+			"name_zh-cn": "彼得罗扎沃茨克",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3256792816": {
+			"name_en-us": "Ravenna",
+			"name_zh-cn": "拉韦纳",
+			"nation": "italy",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3256792848": {
+			"name_en-us": "Vrijheid",
+			"name_zh-cn": "弗赖海特",
+			"nation": "netherlands",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3256825584": {
+			"name_en-us": "A. Vespucci",
+			"name_zh-cn": "亚美瑞格·韦斯普奇",
+			"nation": "italy",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3256825840": {
+			"name_en-us": "Utah",
+			"name_zh-cn": "犹他",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3256858064": {
+			"name_en-us": "Orlov",
+			"name_zh-cn": "奥尔洛夫上将",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "AirCarrier"
+		},
+		"3256858416": {
+			"name_en-us": "O. Lilienthal",
+			"name_zh-cn": "奥托·李林塔尔",
+			"nation": "germany",
+			"tier": 10,
+			"type": "AirCarrier"
+		},
+		"3315513040": {
+			"name_en-us": "[Zaō]",
+			"name_zh-cn": "[藏王]",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3332323024": {
+			"name_en-us": "[Yamato]",
+			"name_zh-cn": "[大和]",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3333371888": {
+			"name_en-us": "[Montana]",
+			"name_zh-cn": "[蒙大拿]",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3333404368": {
+			"name_en-us": "[Hakuryū]",
+			"name_zh-cn": "[白龙]",
+			"nation": "japan",
+			"tier": 10,
+			"type": "AirCarrier"
+		},
+		"3335501808": {
+			"name_en-us": "[Midway]",
+			"name_zh-cn": "[中途岛]",
+			"nation": "usa",
+			"tier": 10,
+			"type": "AirCarrier"
+		},
+		"3337500656": {
+			"name_en-us": "[Gearing]",
+			"name_zh-cn": "[基林]",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3338548944": {
+			"name_en-us": "[Shimakaze]",
+			"name_zh-cn": "[岛风]",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3340645840": {
+			"name_en-us": "[Grozovoi]",
+			"name_zh-cn": "[雷暴]",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3340678608": {
+			"name_en-us": "[Moskva]",
+			"name_zh-cn": "[莫斯科]",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3340678960": {
+			"name_en-us": "[Hindenburg]",
+			"name_zh-cn": "[兴登堡]",
+			"nation": "germany",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3340711728": {
+			"name_en-us": "[G. Kurfürst]",
+			"name_zh-cn": "[大选帝侯]",
+			"nation": "germany",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3340711888": {
+			"name_en-us": "[Conqueror]",
+			"name_zh-cn": "[征服者]",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3340744656": {
+			"name_en-us": "[Audacious]",
+			"name_zh-cn": "[大胆]",
+			"nation": "uk",
+			"tier": 10,
+			"type": "AirCarrier"
+		},
+		"3353294672": {
+			"name_en-us": "[Richelieu]",
+			"name_zh-cn": "[黎塞留]",
+			"nation": "france",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3355359056": {
+			"name_en-us": "[La Galissonnière]",
+			"name_zh-cn": "[拉加利索尼埃]",
+			"nation": "france",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3362666192": {
+			"name_en-us": "STAR Kitakaze",
+			"name_zh-cn": "星之北风",
+			"nation": "japan",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"3363747792": {
+			"name_en-us": "STAR Edinburgh",
+			"name_zh-cn": "星之爱丁堡",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3363780304": {
+			"name_en-us": "Ragnarok",
+			"name_zh-cn": "Ragnarok",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3374266064": {
+			"name_en-us": "Ignis Purgatio",
+			"name_zh-cn": "Ignis Purgatio",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3445503824": {
+			"name_en-us": "Kleber CLR",
+			"name_zh-cn": "克莱贝尔CLR",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3445536752": {
+			"name_en-us": "Austin",
+			"name_zh-cn": "奥斯汀",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3445569488": {
+			"name_en-us": "Cumberland",
+			"name_zh-cn": "坎伯兰",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3446585136": {
+			"name_en-us": "Roon CLR",
+			"name_zh-cn": "罗恩CLR",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3447666672": {
+			"name_en-us": "N. Carolina CLR",
+			"name_zh-cn": "北卡罗来纳CLR",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3522082512": {
+			"name_en-us": "ARP Nachi",
+			"name_zh-cn": "ARP Nachi",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3530504176": {
+			"name_en-us": "Georgia",
+			"name_zh-cn": "佐治亚",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3532568272": {
+			"name_en-us": "E. Dragon",
+			"name_zh-cn": "东方神龙",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3541972176": {
+			"name_en-us": "Ship Smasha",
+			"name_zh-cn": "Ship Smasha",
+			"nation": "pan_asia",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3541972688": {
+			"name_en-us": "AL Yukikaze",
+			"name_zh-cn": "AL 雪风",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3542005456": {
+			"name_en-us": "ARP Maya",
+			"name_zh-cn": "ARP Maya",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3542005552": {
+			"name_en-us": "Cross of Dorn",
+			"name_zh-cn": "Cross of Dorn",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3542005744": {
+			"name_en-us": "AL Montpelier",
+			"name_zh-cn": "AL 蒙彼利埃",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3543054032": {
+			"name_en-us": "S. Dragon",
+			"name_zh-cn": "南方神龙",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3545183952": {
+			"name_en-us": "HSF Hiei",
+			"name_zh-cn": "HSF 比叡",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"3550360880": {
+			"name_en-us": "Ragnar",
+			"name_zh-cn": "朗纳尔",
+			"nation": "europe",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3550393808": {
+			"name_en-us": "Sevastopol",
+			"name_zh-cn": "塞瓦斯托波尔",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3550394320": {
+			"name_en-us": "Monmouth",
+			"name_zh-cn": "蒙茅斯",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3550394352": {
+			"name_en-us": "Salem",
+			"name_zh-cn": "塞勒姆",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3551409616": {
+			"name_en-us": "Neustrashimy",
+			"name_zh-cn": "不惧",
+			"nation": "ussr",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"3551410160": {
+			"name_en-us": "Black",
+			"name_zh-cn": "布莱克",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"3551442640": {
+			"name_en-us": "ARP Haguro",
+			"name_zh-cn": "ARP Haguro",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3551475152": {
+			"name_en-us": "AL Sov. Rossiya",
+			"name_zh-cn": "AL 苏维埃罗西亚",
+			"nation": "ussr",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3552458448": {
+			"name_en-us": "HSF Harekaze",
+			"name_zh-cn": "HSF 晴风",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3552491216": {
+			"name_en-us": "ARP Takao",
+			"name_zh-cn": "ARP Takao",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3552523984": {
+			"name_en-us": "ARP Hiei",
+			"name_zh-cn": "ARP Hiei",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"3552524016": {
+			"name_en-us": "AL Littorio",
+			"name_zh-cn": "AL 利托里奥",
+			"nation": "italy",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3552524272": {
+			"name_en-us": "Alabama ST",
+			"name_zh-cn": "阿拉巴马 ST",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3553539792": {
+			"name_en-us": "ARP Ashigara",
+			"name_zh-cn": "ARP Ashigara",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3553540080": {
+			"name_en-us": "Flint",
+			"name_zh-cn": "弗林特",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3553572560": {
+			"name_en-us": "ARP Haruna",
+			"name_zh-cn": "ARP Haruna",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"3553572848": {
+			"name_en-us": "California",
+			"name_zh-cn": "加利福尼亚",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3554555600": {
+			"name_en-us": "Shinonome",
+			"name_zh-cn": "东云",
+			"nation": "japan",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"3554588464": {
+			"name_en-us": "HSF Graf Spee",
+			"name_zh-cn": "HSF 海军上将施佩伯爵",
+			"nation": "germany",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3554621136": {
+			"name_en-us": "ARP Kirishima",
+			"name_zh-cn": "ARP Kirishima",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"3555636944": {
+			"name_en-us": "ARP Myōkō",
+			"name_zh-cn": "ARP Myōkō",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3555669712": {
+			"name_en-us": "ARP Kongō",
+			"name_zh-cn": "ARP Kongō",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"3555670000": {
+			"name_en-us": "Texas",
+			"name_zh-cn": "德克萨斯",
+			"nation": "usa",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"3560912592": {
+			"name_en-us": "ARP Yamato",
+			"name_zh-cn": "ARP Yamato",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3655218480": {
+			"name_en-us": "Småland",
+			"name_zh-cn": "斯莫兰",
+			"nation": "europe",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3655218960": {
+			"name_en-us": "Tromp",
+			"name_zh-cn": "特龙普",
+			"nation": "netherlands",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3655218992": {
+			"name_en-us": "Z-42",
+			"name_zh-cn": "Z-42",
+			"nation": "germany",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3655219184": {
+			"name_en-us": "F. Sherman",
+			"name_zh-cn": "福雷斯特·谢尔曼",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3655251408": {
+			"name_en-us": "Smolensk",
+			"name_zh-cn": "斯摩棱斯克",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3655251664": {
+			"name_en-us": "Kitakami",
+			"name_zh-cn": "北上",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3655251920": {
+			"name_en-us": "Gibraltar",
+			"name_zh-cn": "直布罗陀",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3655251952": {
+			"name_en-us": "Puerto Rico",
+			"name_zh-cn": "波多黎各",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3655284528": {
+			"name_en-us": "Mecklenburg",
+			"name_zh-cn": "梅克伦堡",
+			"nation": "germany",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3655284688": {
+			"name_en-us": "Incomparable",
+			"name_zh-cn": "无比",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3655317296": {
+			"name_en-us": "M. Immelmann",
+			"name_zh-cn": "马克斯·殷麦曼",
+			"nation": "germany",
+			"tier": 10,
+			"type": "AirCarrier"
+		},
+		"3658397424": {
+			"name_en-us": "Gorizia",
+			"name_zh-cn": "戈里齐亚",
+			"nation": "italy",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3659445712": {
+			"name_en-us": "Makarov",
+			"name_zh-cn": "马卡罗夫海军上将",
+			"nation": "ussr",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3666786288": {
+			"name_en-us": "Alaska B",
+			"name_zh-cn": "阿拉斯加 B",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3666818864": {
+			"name_en-us": "Pommern B",
+			"name_zh-cn": "波美拉尼亚 B",
+			"nation": "germany",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3666818896": {
+			"name_en-us": "Jean Bart B",
+			"name_zh-cn": "让·巴尔 B",
+			"nation": "france",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3666819056": {
+			"name_en-us": "Kearsarge B",
+			"name_zh-cn": "奇尔沙治 B",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3667801296": {
+			"name_en-us": "Loyang B",
+			"name_zh-cn": "洛阳 B",
+			"nation": "pan_asia",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3667801808": {
+			"name_en-us": "Asashio B",
+			"name_zh-cn": "朝潮 B",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3667802064": {
+			"name_en-us": "Cossack B",
+			"name_zh-cn": "哥萨克人 B",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3667834576": {
+			"name_en-us": "Atago B",
+			"name_zh-cn": "爱宕 B",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3667834672": {
+			"name_en-us": "Mainz B",
+			"name_zh-cn": "美因茨 B",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3667867440": {
+			"name_en-us": "Tirpitz B",
+			"name_zh-cn": "提尔皮茨 B",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3667867632": {
+			"name_en-us": "Massachusetts B",
+			"name_zh-cn": "马萨诸塞 B",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3667899856": {
+			"name_en-us": "Chkalov B",
+			"name_zh-cn": "契卡洛夫 B",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3667900112": {
+			"name_en-us": "Kaga B",
+			"name_zh-cn": "加贺 B",
+			"nation": "japan",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3667900208": {
+			"name_en-us": "Graf Zeppelin B",
+			"name_zh-cn": "齐柏林伯爵 B",
+			"nation": "germany",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3667900400": {
+			"name_en-us": "Saipan B",
+			"name_zh-cn": "塞班 B",
+			"nation": "usa",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3668850672": {
+			"name_en-us": "Sims B",
+			"name_zh-cn": "西姆斯 B",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"3668883440": {
+			"name_en-us": "Boise",
+			"name_zh-cn": "博伊西",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3668916016": {
+			"name_en-us": "Scharnhorst B",
+			"name_zh-cn": "沙恩霍斯特 B",
+			"nation": "germany",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3669898960": {
+			"name_en-us": "Shinonome B",
+			"name_zh-cn": "东云 B",
+			"nation": "japan",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"3669964624": {
+			"name_en-us": "Dunkerque B",
+			"name_zh-cn": "敦刻尔克 B",
+			"nation": "france",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"3676223184": {
+			"name_en-us": "Yoshino B",
+			"name_zh-cn": "吉野 B",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3676223216": {
+			"name_en-us": "Napoli B",
+			"name_zh-cn": "那不勒斯 B",
+			"nation": "italy",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3679369200": {
+			"name_en-us": "Atlanta B",
+			"name_zh-cn": "亚特兰大 B",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3709777360": {
+			"name_en-us": "D. Pozharsky",
+			"name_zh-cn": "德米特里·波扎尔斯基",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3720263120": {
+			"name_en-us": "Bagration",
+			"name_zh-cn": "巴格拉季昂",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3720263632": {
+			"name_en-us": "Nottingham",
+			"name_zh-cn": "诺丁汉",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3720263664": {
+			"name_en-us": "San Diego",
+			"name_zh-cn": "圣地亚哥",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3721344976": {
+			"name_en-us": "Renown '44",
+			"name_zh-cn": "声望44",
+			"nation": "uk",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3729733328": {
+			"name_en-us": "Daisen",
+			"name_zh-cn": "大山",
+			"nation": "japan",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3729733616": {
+			"name_en-us": "Illinois",
+			"name_zh-cn": "伊利诺伊",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3730748880": {
+			"name_en-us": "P. Bagration",
+			"name_zh-cn": "彼得罗·巴格拉季昂",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3730749392": {
+			"name_en-us": "Hampshire",
+			"name_zh-cn": "汉普郡",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3730749424": {
+			"name_en-us": "Rochester",
+			"name_zh-cn": "罗彻斯特",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3730782032": {
+			"name_en-us": "Flandre",
+			"name_zh-cn": "弗兰德尔",
+			"nation": "france",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3730782192": {
+			"name_en-us": "Constellation",
+			"name_zh-cn": "星座",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3730814960": {
+			"name_en-us": "Hornet",
+			"name_zh-cn": "大黄蜂",
+			"nation": "usa",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3731830736": {
+			"name_en-us": "Collingwood",
+			"name_zh-cn": "科林伍德",
+			"nation": "uk",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3740153648": {
+			"name_en-us": "ZF-6",
+			"name_zh-cn": "ZF-6",
+			"nation": "germany",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"3740186416": {
+			"name_en-us": "Schröder",
+			"name_zh-cn": "施罗德",
+			"nation": "germany",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3740218576": {
+			"name_en-us": "Sun Yat-Sen",
+			"name_zh-cn": "载之",
+			"nation": "pan_asia",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3740219088": {
+			"name_en-us": "Iwami",
+			"name_zh-cn": "石见",
+			"nation": "japan",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3741202128": {
+			"name_en-us": "HSF Harekaze II",
+			"name_zh-cn": "HSF 晴风 II",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3741234640": {
+			"name_en-us": "Ochakov",
+			"name_zh-cn": "奥恰科夫",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3741234992": {
+			"name_en-us": "Schill",
+			"name_zh-cn": "席尔",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3741235152": {
+			"name_en-us": "Belfast '43",
+			"name_zh-cn": "贝尔法斯特43",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3741235184": {
+			"name_en-us": "Congress",
+			"name_zh-cn": "国会",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3741267408": {
+			"name_en-us": "Borodino",
+			"name_zh-cn": "博罗季诺",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3741267760": {
+			"name_en-us": "Anhalt",
+			"name_zh-cn": "安哈尔特",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3741267792": {
+			"name_en-us": "Champagne",
+			"name_zh-cn": "香槟",
+			"nation": "france",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3741267952": {
+			"name_en-us": "Alabama VL",
+			"name_zh-cn": "阿拉巴马 VL",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3741300688": {
+			"name_en-us": "Colossus",
+			"name_zh-cn": "巨像",
+			"nation": "uk",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3741300720": {
+			"name_en-us": "Saipan",
+			"name_zh-cn": "塞班",
+			"nation": "usa",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3742316496": {
+			"name_en-us": "Duke of York",
+			"name_zh-cn": "约克公爵",
+			"nation": "uk",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3742316528": {
+			"name_en-us": "West Virginia '44",
+			"name_zh-cn": "西弗吉尼亚44",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3743332304": {
+			"name_en-us": "Dido",
+			"name_zh-cn": "黛朵",
+			"nation": "uk",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3743364816": {
+			"name_en-us": "Ise",
+			"name_zh-cn": "伊势",
+			"nation": "japan",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"3743365072": {
+			"name_en-us": "Repulse",
+			"name_zh-cn": "反击",
+			"nation": "uk",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"3744380368": {
+			"name_en-us": "Kirov",
+			"name_zh-cn": "基洛夫",
+			"nation": "ussr",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"3746477520": {
+			"name_en-us": "AL Avrora",
+			"name_zh-cn": "AL 阿芙乐尔",
+			"nation": "ussr",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"3749623504": {
+			"name_en-us": "Yoshino",
+			"name_zh-cn": "吉野",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3750638896": {
+			"name_en-us": "Jäger",
+			"name_zh-cn": "耶格尔",
+			"nation": "europe",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"3750639408": {
+			"name_en-us": "Z-44",
+			"name_zh-cn": "Z-44",
+			"nation": "germany",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"3750639600": {
+			"name_en-us": "Halford",
+			"name_zh-cn": "哈尔福德",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"3750672080": {
+			"name_en-us": "AL Azuma",
+			"name_zh-cn": "AL 吾妻",
+			"nation": "japan",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3750672176": {
+			"name_en-us": "Ägir",
+			"name_zh-cn": "埃吉尔",
+			"nation": "germany",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3750672368": {
+			"name_en-us": "Tulsa",
+			"name_zh-cn": "塔尔萨",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3750704336": {
+			"name_en-us": "Wujing",
+			"name_zh-cn": "悟净",
+			"nation": "pan_asia",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3750704848": {
+			"name_en-us": "Hizen",
+			"name_zh-cn": "肥前",
+			"nation": "japan",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3750704880": {
+			"name_en-us": "Giuseppe Verdi",
+			"name_zh-cn": "朱塞佩·威尔第",
+			"nation": "italy",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3750705136": {
+			"name_en-us": "Kearsarge",
+			"name_zh-cn": "奇尔沙治",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3751196368": {
+			"name_en-us": "I-56",
+			"name_zh-cn": "I-56",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Submarine"
+		},
+		"3751687376": {
+			"name_en-us": "Fenyang",
+			"name_zh-cn": "汾阳",
+			"nation": "pan_asia",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3751687888": {
+			"name_en-us": "Asashio",
+			"name_zh-cn": "朝潮",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3751687984": {
+			"name_en-us": "Z-35",
+			"name_zh-cn": "Z-35",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3751720144": {
+			"name_en-us": "Wukong",
+			"name_zh-cn": "悟空",
+			"nation": "pan_asia",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3751720400": {
+			"name_en-us": "Lazo",
+			"name_zh-cn": "拉佐",
+			"nation": "ussr",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3751720752": {
+			"name_en-us": "Mainz",
+			"name_zh-cn": "美因茨",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3751720912": {
+			"name_en-us": "Tiger '59",
+			"name_zh-cn": "虎59",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3751720944": {
+			"name_en-us": "Anchorage",
+			"name_zh-cn": "安克雷奇",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3751753168": {
+			"name_en-us": "Lenin",
+			"name_zh-cn": "列宁",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3751753520": {
+			"name_en-us": "Brandenburg",
+			"name_zh-cn": "勃兰登堡",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3751753552": {
+			"name_en-us": "Jean Bart",
+			"name_zh-cn": "让·巴尔",
+			"nation": "france",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3751753712": {
+			"name_en-us": "Massachusetts",
+			"name_zh-cn": "马萨诸塞",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3751786192": {
+			"name_en-us": "Kaga",
+			"name_zh-cn": "加贺",
+			"nation": "japan",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3751786288": {
+			"name_en-us": "Graf Zeppelin",
+			"name_zh-cn": "齐柏林伯爵",
+			"nation": "germany",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3751786448": {
+			"name_en-us": "Ark Royal",
+			"name_zh-cn": "皇家方舟",
+			"nation": "uk",
+			"tier": 6,
+			"type": "AirCarrier"
+		},
+		"3751786480": {
+			"name_en-us": "Enterprise",
+			"name_zh-cn": "企业",
+			"nation": "usa",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3752736112": {
+			"name_en-us": "Huron",
+			"name_zh-cn": "休伦",
+			"nation": "commonwealth",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"3752736208": {
+			"name_en-us": "Tashkent '39",
+			"name_zh-cn": "塔什干39",
+			"nation": "ussr",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"3752736720": {
+			"name_en-us": "Cossack",
+			"name_zh-cn": "哥萨克人",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3752769232": {
+			"name_en-us": "Maya",
+			"name_zh-cn": "摩耶",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3752769328": {
+			"name_en-us": "Weimar",
+			"name_zh-cn": "魏玛",
+			"nation": "germany",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3752802000": {
+			"name_en-us": "Hyūga",
+			"name_zh-cn": "日向",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3752802256": {
+			"name_en-us": "Nelson",
+			"name_zh-cn": "纳尔逊",
+			"nation": "uk",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3752802288": {
+			"name_en-us": "Florida",
+			"name_zh-cn": "佛罗里达",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3753785136": {
+			"name_en-us": "K. Schönberg",
+			"name_zh-cn": "卡尔·冯·勋伯格",
+			"nation": "germany",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"3753817456": {
+			"name_en-us": "Mysore",
+			"name_zh-cn": "迈索尔",
+			"nation": "commonwealth",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3753817904": {
+			"name_en-us": "Leipzig",
+			"name_zh-cn": "莱比锡",
+			"nation": "germany",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3753817936": {
+			"name_en-us": "Dupleix",
+			"name_zh-cn": "杜布雷",
+			"nation": "france",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3753818064": {
+			"name_en-us": "London",
+			"name_zh-cn": "伦敦",
+			"nation": "uk",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3753850320": {
+			"name_en-us": "Novorossiysk",
+			"name_zh-cn": "新罗西斯克",
+			"nation": "ussr",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"3754866128": {
+			"name_en-us": "Mikoyan",
+			"name_zh-cn": "米高扬",
+			"nation": "ussr",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"3756963280": {
+			"name_en-us": "Varyag",
+			"name_zh-cn": "瓦良格",
+			"nation": "ussr",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"3759585264": {
+			"name_en-us": "Gato",
+			"name_zh-cn": "猫鲨",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Submarine"
+		},
+		"3760075984": {
+			"name_en-us": "Lüshun",
+			"name_zh-cn": "旅顺",
+			"nation": "pan_asia",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3760076080": {
+			"name_en-us": "Friesland",
+			"name_zh-cn": "弗里斯兰",
+			"nation": "europe",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"3760076144": {
+			"name_en-us": "Vampire II",
+			"name_zh-cn": "吸血鬼II",
+			"nation": "commonwealth",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3760076208": {
+			"name_en-us": "Álvaro de Bazán",
+			"name_zh-cn": "阿尔瓦罗·德·巴赞",
+			"nation": "spain",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3760076496": {
+			"name_en-us": "Hayate",
+			"name_zh-cn": "疾风",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3760076752": {
+			"name_en-us": "Druid",
+			"name_zh-cn": "德鲁伊",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3760076784": {
+			"name_en-us": "Somers",
+			"name_zh-cn": "萨默斯",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3760108912": {
+			"name_en-us": "Brisbane",
+			"name_zh-cn": "布里斯班",
+			"nation": "commonwealth",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3760109008": {
+			"name_en-us": "Stalingrad",
+			"name_zh-cn": "斯大林格勒",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3760109264": {
+			"name_en-us": "Azuma",
+			"name_zh-cn": "吾妻",
+			"nation": "japan",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3760109296": {
+			"name_en-us": "Napoli",
+			"name_zh-cn": "那不勒斯",
+			"nation": "italy",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3760109392": {
+			"name_en-us": "Colbert",
+			"name_zh-cn": "科尔伯特",
+			"nation": "france",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3760109520": {
+			"name_en-us": "Plymouth",
+			"name_zh-cn": "普利茅斯",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3760109552": {
+			"name_en-us": "Alaska",
+			"name_zh-cn": "阿拉斯加",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3760141776": {
+			"name_en-us": "Slava",
+			"name_zh-cn": "光荣",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3760142032": {
+			"name_en-us": "Shikishima",
+			"name_zh-cn": "敷岛",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3760142064": {
+			"name_en-us": "R. Lauria",
+			"name_zh-cn": "鲁杰罗·迪·劳里亚",
+			"nation": "italy",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3760142160": {
+			"name_en-us": "Bourgogne",
+			"name_zh-cn": "勃艮第",
+			"nation": "france",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3760142288": {
+			"name_en-us": "Thunderer",
+			"name_zh-cn": "雷神",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3760142320": {
+			"name_en-us": "Ohio",
+			"name_zh-cn": "俄亥俄",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3760175056": {
+			"name_en-us": "Malta",
+			"name_zh-cn": "马耳他",
+			"nation": "uk",
+			"tier": 10,
+			"type": "AirCarrier"
+		},
+		"3760175088": {
+			"name_en-us": "F. D. Roosevelt",
+			"name_zh-cn": "富兰克林·罗斯福",
+			"nation": "usa",
+			"tier": 10,
+			"type": "AirCarrier"
+		},
+		"3761124656": {
+			"name_en-us": "Velos",
+			"name_zh-cn": "贝洛斯",
+			"nation": "europe",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"3761125104": {
+			"name_en-us": "Paolo Emilio",
+			"name_zh-cn": "保罗·埃米利奥",
+			"nation": "italy",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"3761125136": {
+			"name_en-us": "Groningen",
+			"name_zh-cn": "格罗宁根",
+			"nation": "netherlands",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"3761125360": {
+			"name_en-us": "Benham",
+			"name_zh-cn": "贝纳姆",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"3761157328": {
+			"name_en-us": "Dalian",
+			"name_zh-cn": "大连",
+			"nation": "pan_asia",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3761157488": {
+			"name_en-us": "Hector",
+			"name_zh-cn": "赫克托耳",
+			"nation": "commonwealth",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3761157584": {
+			"name_en-us": "Kronshtadt",
+			"name_zh-cn": "喀朗施塔得",
+			"nation": "ussr",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3761157904": {
+			"name_en-us": "Van Speijk",
+			"name_zh-cn": "范·斯佩克",
+			"nation": "netherlands",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3761157936": {
+			"name_en-us": "Siegfried",
+			"name_zh-cn": "齐格菲",
+			"nation": "germany",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3761157968": {
+			"name_en-us": "Carnot",
+			"name_zh-cn": "卡诺",
+			"nation": "france",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3761158128": {
+			"name_en-us": "Vallejo",
+			"name_zh-cn": "瓦列霍",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"3761190096": {
+			"name_en-us": "Bajie",
+			"name_zh-cn": "八戒",
+			"nation": "pan_asia",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3761190608": {
+			"name_en-us": "Musashi",
+			"name_zh-cn": "武藏",
+			"nation": "japan",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3761190640": {
+			"name_en-us": "Marco Polo",
+			"name_zh-cn": "马可·波罗",
+			"nation": "italy",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3761190704": {
+			"name_en-us": "Pommern",
+			"name_zh-cn": "波美拉尼亚",
+			"nation": "germany",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3761190864": {
+			"name_en-us": "Marlborough",
+			"name_zh-cn": "马尔博罗",
+			"nation": "uk",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3761190896": {
+			"name_en-us": "Missouri",
+			"name_zh-cn": "密苏里",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"3761681872": {
+			"name_en-us": "S-189",
+			"name_zh-cn": "S-189",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "Submarine"
+		},
+		"3761682384": {
+			"name_en-us": "Alliance",
+			"name_zh-cn": "联盟",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Submarine"
+		},
+		"3762173136": {
+			"name_en-us": "Loyang",
+			"name_zh-cn": "洛阳",
+			"nation": "pan_asia",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3762173232": {
+			"name_en-us": "Orkan",
+			"name_zh-cn": "奥坎",
+			"nation": "europe",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3762173744": {
+			"name_en-us": "Z-39",
+			"name_zh-cn": "Z-39",
+			"nation": "germany",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"3762173776": {
+			"name_en-us": "Le Terrible",
+			"name_zh-cn": "可怖",
+			"nation": "france",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3762173936": {
+			"name_en-us": "Kidd",
+			"name_zh-cn": "基德",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"3762205904": {
+			"name_en-us": "Irian",
+			"name_zh-cn": "伊里安",
+			"nation": "pan_asia",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3762206032": {
+			"name_en-us": "Alte Grau",
+			"name_zh-cn": "格劳海军上将",
+			"nation": "pan_america",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3762206128": {
+			"name_en-us": "Numancia",
+			"name_zh-cn": "努曼西亚",
+			"nation": "spain",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3762206160": {
+			"name_en-us": "Kutuzov",
+			"name_zh-cn": "米哈伊尔·库图佐夫",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3762206480": {
+			"name_en-us": "De 7 Provinciën",
+			"name_zh-cn": "七省",
+			"nation": "netherlands",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3762206512": {
+			"name_en-us": "Prinz Eugen",
+			"name_zh-cn": "欧根亲王",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3762206544": {
+			"name_en-us": "Bayard",
+			"name_zh-cn": "贝亚德",
+			"nation": "france",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3762206672": {
+			"name_en-us": "Cheshire",
+			"name_zh-cn": "柴郡",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3762206704": {
+			"name_en-us": "Wichita",
+			"name_zh-cn": "威奇塔",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"3762238800": {
+			"name_en-us": "Atlântico",
+			"name_zh-cn": "大西洋",
+			"nation": "pan_america",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3762238928": {
+			"name_en-us": "Poltava",
+			"name_zh-cn": "波尔塔瓦",
+			"nation": "ussr",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3762239184": {
+			"name_en-us": "Kii",
+			"name_zh-cn": "纪伊",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3762239216": {
+			"name_en-us": "Roma",
+			"name_zh-cn": "罗马",
+			"nation": "italy",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3762239280": {
+			"name_en-us": "Odin",
+			"name_zh-cn": "奥丁",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3762239312": {
+			"name_en-us": "Gascogne",
+			"name_zh-cn": "加斯科涅",
+			"nation": "france",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3762239440": {
+			"name_en-us": "Vanguard",
+			"name_zh-cn": "前卫",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3762239472": {
+			"name_en-us": "Alabama",
+			"name_zh-cn": "阿拉巴马",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"3762271440": {
+			"name_en-us": "Sanzang",
+			"name_zh-cn": "三藏",
+			"nation": "pan_asia",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3762271696": {
+			"name_en-us": "Chkalov",
+			"name_zh-cn": "契卡洛夫",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3762271984": {
+			"name_en-us": "Aquila",
+			"name_zh-cn": "天鹰",
+			"nation": "italy",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3762272208": {
+			"name_en-us": "Indomitable",
+			"name_zh-cn": "不挠",
+			"nation": "uk",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"3763221872": {
+			"name_en-us": "Haida",
+			"name_zh-cn": "海达人",
+			"nation": "commonwealth",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"3763221968": {
+			"name_en-us": "Leningrad",
+			"name_zh-cn": "列宁格勒",
+			"nation": "ussr",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"3763222224": {
+			"name_en-us": "Yūdachi",
+			"name_zh-cn": "夕立",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"3763222256": {
+			"name_en-us": "FR25",
+			"name_zh-cn": "FR25",
+			"nation": "italy",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"3763254608": {
+			"name_en-us": "Nueve de Julio",
+			"name_zh-cn": "七月九日",
+			"nation": "pan_america",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3763254992": {
+			"name_en-us": "Tokachi",
+			"name_zh-cn": "十胜",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3763255024": {
+			"name_en-us": "Abruzzi",
+			"name_zh-cn": "阿布鲁齐公爵",
+			"nation": "italy",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3763255088": {
+			"name_en-us": "München",
+			"name_zh-cn": "慕尼黑",
+			"nation": "germany",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3763255120": {
+			"name_en-us": "Toulon",
+			"name_zh-cn": "土伦",
+			"nation": "france",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3763255248": {
+			"name_en-us": "Belfast",
+			"name_zh-cn": "贝尔法斯特",
+			"nation": "uk",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3763255280": {
+			"name_en-us": "Indianapolis",
+			"name_zh-cn": "印第安纳波利斯",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"3763287408": {
+			"name_en-us": "Yukon",
+			"name_zh-cn": "育空",
+			"nation": "commonwealth",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3763287760": {
+			"name_en-us": "Ashitaka",
+			"name_zh-cn": "爱鹰",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3763287856": {
+			"name_en-us": "Scharnhorst",
+			"name_zh-cn": "沙恩霍斯特",
+			"nation": "germany",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3763287888": {
+			"name_en-us": "Strasbourg",
+			"name_zh-cn": "斯特拉斯堡",
+			"nation": "france",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3763288016": {
+			"name_en-us": "Hood",
+			"name_zh-cn": "胡德",
+			"nation": "uk",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"3763288048": {
+			"name_en-us": "W. Virginia 1941",
+			"name_zh-cn": "西弗吉尼亚 1941",
+			"nation": "usa",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"3764270288": {
+			"name_en-us": "Anshan",
+			"name_zh-cn": "鞍山",
+			"nation": "pan_asia",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"3764270416": {
+			"name_en-us": "Juruá",
+			"name_zh-cn": "茹鲁阿",
+			"nation": "pan_america",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"3764270832": {
+			"name_en-us": "Leone",
+			"name_zh-cn": "狮子",
+			"nation": "italy",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"3764270896": {
+			"name_en-us": "T-61",
+			"name_zh-cn": "T-61",
+			"nation": "germany",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"3764270928": {
+			"name_en-us": "Aigle",
+			"name_zh-cn": "鹰",
+			"nation": "france",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"3764271056": {
+			"name_en-us": "Gallant",
+			"name_zh-cn": "勇敢",
+			"nation": "uk",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"3764271088": {
+			"name_en-us": "Monaghan",
+			"name_zh-cn": "莫纳汉",
+			"nation": "usa",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"3764303056": {
+			"name_en-us": "Huanghe",
+			"name_zh-cn": "黄河",
+			"nation": "pan_asia",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3764303152": {
+			"name_en-us": "Elli",
+			"name_zh-cn": "埃利",
+			"nation": "europe",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3764303216": {
+			"name_en-us": "Perth",
+			"name_zh-cn": "珀斯",
+			"nation": "commonwealth",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3764303280": {
+			"name_en-us": "Canarias",
+			"name_zh-cn": "加那利",
+			"nation": "spain",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3764303312": {
+			"name_en-us": "Molotov",
+			"name_zh-cn": "莫洛托夫",
+			"nation": "ussr",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3764303600": {
+			"name_en-us": "Duca d'Aosta",
+			"name_zh-cn": "奥斯塔公爵",
+			"nation": "italy",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3764303664": {
+			"name_en-us": "Graf Spee",
+			"name_zh-cn": "海军上将施佩伯爵",
+			"nation": "germany",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3764303696": {
+			"name_en-us": "De Grasse",
+			"name_zh-cn": "格拉斯",
+			"nation": "france",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"3764336336": {
+			"name_en-us": "Mutsu",
+			"name_zh-cn": "陆奥",
+			"nation": "japan",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"3764336432": {
+			"name_en-us": "P. E. Friedrich",
+			"name_zh-cn": "埃特尔·弗雷德里希亲王",
+			"nation": "germany",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"3764336464": {
+			"name_en-us": "Dunkerque",
+			"name_zh-cn": "敦刻尔克",
+			"nation": "france",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"3764336624": {
+			"name_en-us": "Arizona",
+			"name_zh-cn": "亚利桑那",
+			"nation": "usa",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"3764369200": {
+			"name_en-us": "E. Loewenhardt",
+			"name_zh-cn": "埃里希·勒文哈尔特",
+			"nation": "germany",
+			"tier": 6,
+			"type": "AirCarrier"
+		},
+		"3764369232": {
+			"name_en-us": "Béarn",
+			"name_zh-cn": "贝阿恩",
+			"nation": "france",
+			"tier": 6,
+			"type": "AirCarrier"
+		},
+		"3765319120": {
+			"name_en-us": "Okhotnik",
+			"name_zh-cn": "猎人",
+			"nation": "ussr",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"3765319664": {
+			"name_en-us": "Hill",
+			"name_zh-cn": "希尔",
+			"nation": "usa",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"3765351888": {
+			"name_en-us": "Krasny Krym",
+			"name_zh-cn": "红色克里米亚",
+			"nation": "ussr",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"3765352144": {
+			"name_en-us": "Yahagi",
+			"name_zh-cn": "矢矧",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"3765352176": {
+			"name_en-us": "Genova",
+			"name_zh-cn": "热那亚",
+			"nation": "italy",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"3765352400": {
+			"name_en-us": "Exeter",
+			"name_zh-cn": "埃克塞特",
+			"nation": "uk",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"3765384528": {
+			"name_en-us": "Rio de Janeiro",
+			"name_zh-cn": "里约热内卢",
+			"nation": "pan_america",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"3765384656": {
+			"name_en-us": "Okt. Revolutsiya",
+			"name_zh-cn": "十月革命",
+			"nation": "ussr",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"3765384944": {
+			"name_en-us": "Giulio Cesare",
+			"name_zh-cn": "尤里乌斯-恺撒",
+			"nation": "italy",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"3765385168": {
+			"name_en-us": "Agincourt",
+			"name_zh-cn": "阿金库尔",
+			"nation": "uk",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"3765385200": {
+			"name_en-us": "Oklahoma",
+			"name_zh-cn": "俄克拉荷马",
+			"nation": "usa",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"3766368080": {
+			"name_en-us": "Siroco",
+			"name_zh-cn": "热风",
+			"nation": "france",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"3766433072": {
+			"name_en-us": "Viribus Unitis",
+			"name_zh-cn": "联合力量",
+			"nation": "europe",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"3767416176": {
+			"name_en-us": "Vampire",
+			"name_zh-cn": "吸血鬼",
+			"nation": "commonwealth",
+			"tier": 3,
+			"type": "Destroyer"
+		},
+		"3767416784": {
+			"name_en-us": "Campbeltown",
+			"name_zh-cn": "坎贝尔敦",
+			"nation": "uk",
+			"tier": 3,
+			"type": "Destroyer"
+		},
+		"3767448784": {
+			"name_en-us": "Ning Hai",
+			"name_zh-cn": "宁海",
+			"nation": "pan_asia",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"3767449040": {
+			"name_en-us": "Oleg",
+			"name_zh-cn": "奥列格",
+			"nation": "ussr",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"3767449296": {
+			"name_en-us": "Katori",
+			"name_zh-cn": "香取",
+			"nation": "japan",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"3767449584": {
+			"name_en-us": "Charleston",
+			"name_zh-cn": "查尔斯顿",
+			"nation": "usa",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"3767482160": {
+			"name_en-us": "K. Albert",
+			"name_zh-cn": "阿尔伯特国王",
+			"nation": "germany",
+			"tier": 3,
+			"type": "Battleship"
+		},
+		"3767482320": {
+			"name_en-us": "Dreadnought",
+			"name_zh-cn": "无畏",
+			"nation": "uk",
+			"tier": 3,
+			"type": "Battleship"
+		},
+		"3768465392": {
+			"name_en-us": "Smith",
+			"name_zh-cn": "史密斯",
+			"nation": "usa",
+			"tier": 2,
+			"type": "Destroyer"
+		},
+		"3768497488": {
+			"name_en-us": "Alte Abreu",
+			"name_zh-cn": "阿布瑞尤海军上将",
+			"nation": "pan_america",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"3768497968": {
+			"name_en-us": "Emden",
+			"name_zh-cn": "埃姆登",
+			"nation": "germany",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"3769513264": {
+			"name_en-us": "Błyskawica",
+			"name_zh-cn": "闪电",
+			"nation": "europe",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"3864933840": {
+			"name_en-us": "Delny",
+			"name_zh-cn": "德尔尼",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"3865982416": {
+			"name_en-us": "Tashkent",
+			"name_zh-cn": "塔什干",
+			"nation": "ussr",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"3969824208": {
+			"name_en-us": "Petropavlovsk",
+			"name_zh-cn": "彼得罗巴甫洛夫斯克",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"3969857328": {
+			"name_en-us": "Preussen",
+			"name_zh-cn": "普鲁士",
+			"nation": "germany",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"3971888592": {
+			"name_en-us": "Kiev",
+			"name_zh-cn": "基辅",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4065212112": {
+			"name_en-us": "Kitakaze",
+			"name_zh-cn": "北风",
+			"nation": "japan",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"4069438928": {
+			"name_en-us": "Kotovsky",
+			"name_zh-cn": "科托夫斯基",
+			"nation": "ussr",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4074157872": {
+			"name_en-us": "U-2501",
+			"name_zh-cn": "U-2501",
+			"nation": "germany",
+			"tier": 10,
+			"type": "Submarine"
+		},
+		"4074158064": {
+			"name_en-us": "Balao",
+			"name_zh-cn": "巴劳鱵",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Submarine"
+		},
+		"4074648880": {
+			"name_en-us": "Gdańsk",
+			"name_zh-cn": "格但斯克",
+			"nation": "europe",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4074649040": {
+			"name_en-us": "Grozovoi",
+			"name_zh-cn": "雷暴",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4074649296": {
+			"name_en-us": "Harugumo",
+			"name_zh-cn": "春云",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4074649392": {
+			"name_en-us": "Elbing",
+			"name_zh-cn": "埃尔宾",
+			"nation": "germany",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4074649424": {
+			"name_en-us": "Marceau",
+			"name_zh-cn": "玛索",
+			"nation": "france",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4074681808": {
+			"name_en-us": "A. Nevsky",
+			"name_zh-cn": "亚历山大·涅夫斯基",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4074682064": {
+			"name_en-us": "Yodo",
+			"name_zh-cn": "淀",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4074682192": {
+			"name_en-us": "Marseille",
+			"name_zh-cn": "马赛",
+			"nation": "france",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4074682320": {
+			"name_en-us": "Goliath",
+			"name_zh-cn": "歌利亚",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4074682352": {
+			"name_en-us": "Worcester",
+			"name_zh-cn": "伍斯特",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4074714928": {
+			"name_en-us": "Schlieffen",
+			"name_zh-cn": "施里芬",
+			"nation": "germany",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"4074715088": {
+			"name_en-us": "St. Vincent",
+			"name_zh-cn": "圣文森特",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"4074715120": {
+			"name_en-us": "Louisiana",
+			"name_zh-cn": "路易斯安纳",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"4074747856": {
+			"name_en-us": "Audacious",
+			"name_zh-cn": "大胆",
+			"nation": "uk",
+			"tier": 10,
+			"type": "AirCarrier"
+		},
+		"4075697456": {
+			"name_en-us": "L. Katsonis",
+			"name_zh-cn": "兰布罗斯·卡措尼斯",
+			"nation": "europe",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"4075697872": {
+			"name_en-us": "Yūgumo",
+			"name_zh-cn": "夕云",
+			"nation": "japan",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"4075697968": {
+			"name_en-us": "F. Schultz",
+			"name_zh-cn": "菲利克斯·舒尔茨",
+			"nation": "germany",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"4075730384": {
+			"name_en-us": "Riga",
+			"name_zh-cn": "里加",
+			"nation": "ussr",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4075730640": {
+			"name_en-us": "Takahashi",
+			"name_zh-cn": "高梁",
+			"nation": "japan",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4075730768": {
+			"name_en-us": "Brest",
+			"name_zh-cn": "布雷斯特",
+			"nation": "france",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4075730896": {
+			"name_en-us": "Drake",
+			"name_zh-cn": "德雷克",
+			"nation": "uk",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4075730928": {
+			"name_en-us": "Seattle",
+			"name_zh-cn": "西雅图",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4075763504": {
+			"name_en-us": "P. Rupprecht",
+			"name_zh-cn": "鲁普雷希特亲王",
+			"nation": "germany",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"4075763664": {
+			"name_en-us": "Duncan",
+			"name_zh-cn": "邓肯",
+			"nation": "uk",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"4075763696": {
+			"name_en-us": "Delaware",
+			"name_zh-cn": "特拉华",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"4076255024": {
+			"name_en-us": "U-190",
+			"name_zh-cn": "U-190",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Submarine"
+		},
+		"4076255216": {
+			"name_en-us": "Salmon",
+			"name_zh-cn": "鲑鱼",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Submarine"
+		},
+		"4076745936": {
+			"name_en-us": "Siliwangi",
+			"name_zh-cn": "西利旺义",
+			"nation": "pan_asia",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4076746032": {
+			"name_en-us": "Split",
+			"name_zh-cn": "斯普利特",
+			"nation": "europe",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4076746192": {
+			"name_en-us": "Ognevoi",
+			"name_zh-cn": "火力",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4076746448": {
+			"name_en-us": "Kagerō",
+			"name_zh-cn": "阳炎",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4076746544": {
+			"name_en-us": "G. J. Maerker",
+			"name_zh-cn": "G.J.梅克尔",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4076778960": {
+			"name_en-us": "Tallinn",
+			"name_zh-cn": "塔林",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4076779216": {
+			"name_en-us": "Shimanto",
+			"name_zh-cn": "四万十",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4076779344": {
+			"name_en-us": "Cherbourg",
+			"name_zh-cn": "瑟堡",
+			"nation": "france",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4076779472": {
+			"name_en-us": "Albemarle",
+			"name_zh-cn": "阿尔伯马尔",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4076779504": {
+			"name_en-us": "Cleveland",
+			"name_zh-cn": "克利夫兰",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4076812080": {
+			"name_en-us": "Zieten",
+			"name_zh-cn": "齐滕",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"4076812240": {
+			"name_en-us": "Hawke",
+			"name_zh-cn": "霍克",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"4076812272": {
+			"name_en-us": "Nebraska",
+			"name_zh-cn": "内布拉斯加",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"4077794608": {
+			"name_en-us": "Grom",
+			"name_zh-cn": "雷霆",
+			"nation": "europe",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"4077794768": {
+			"name_en-us": "Minsk",
+			"name_zh-cn": "明斯克",
+			"nation": "ussr",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"4077795024": {
+			"name_en-us": "Shiratsuyu",
+			"name_zh-cn": "白露",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"4077795120": {
+			"name_en-us": "Z-31",
+			"name_zh-cn": "Z-31",
+			"nation": "germany",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"4077827792": {
+			"name_en-us": "Omono",
+			"name_zh-cn": "雄物",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4077828048": {
+			"name_en-us": "Surrey",
+			"name_zh-cn": "萨里",
+			"nation": "uk",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4077828080": {
+			"name_en-us": "Helena",
+			"name_zh-cn": "海伦娜",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4077860656": {
+			"name_en-us": "P. Heinrich",
+			"name_zh-cn": "海因里希亲王",
+			"nation": "germany",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"4077860816": {
+			"name_en-us": "Rooke",
+			"name_zh-cn": "鲁克",
+			"nation": "uk",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"4078352176": {
+			"name_en-us": "U-69",
+			"name_zh-cn": "U-69",
+			"nation": "germany",
+			"tier": 6,
+			"type": "Submarine"
+		},
+		"4078352368": {
+			"name_en-us": "Cachalot",
+			"name_zh-cn": "抹香鲸",
+			"nation": "usa",
+			"tier": 6,
+			"type": "Submarine"
+		},
+		"4078843184": {
+			"name_en-us": "Stord",
+			"name_zh-cn": "斯托德",
+			"nation": "europe",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"4078843344": {
+			"name_en-us": "Gnevny",
+			"name_zh-cn": "愤怒",
+			"nation": "ussr",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"4078843600": {
+			"name_en-us": "Hatsuharu",
+			"name_zh-cn": "初春",
+			"nation": "japan",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"4078876368": {
+			"name_en-us": "Gokase",
+			"name_zh-cn": "五濑",
+			"nation": "japan",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4078876624": {
+			"name_en-us": "Devonshire",
+			"name_zh-cn": "德文郡",
+			"nation": "uk",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4078876656": {
+			"name_en-us": "Dallas",
+			"name_zh-cn": "达拉斯",
+			"nation": "usa",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4078909232": {
+			"name_en-us": "Mackensen",
+			"name_zh-cn": "马肯森",
+			"nation": "germany",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"4078909392": {
+			"name_en-us": "Renown",
+			"name_zh-cn": "声望",
+			"nation": "uk",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"4079891760": {
+			"name_en-us": "Muavenet",
+			"name_zh-cn": "穆阿维内特",
+			"nation": "europe",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4079891920": {
+			"name_en-us": "Podvoisky",
+			"name_zh-cn": "巴铎夫斯基",
+			"nation": "ussr",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4079924944": {
+			"name_en-us": "Agano",
+			"name_zh-cn": "阿贺野",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4079925200": {
+			"name_en-us": "Hawkins",
+			"name_zh-cn": "霍金斯",
+			"nation": "uk",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4079957808": {
+			"name_en-us": "Derfflinger",
+			"name_zh-cn": "德芙林格尔",
+			"nation": "germany",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"4079957968": {
+			"name_en-us": "Tiger",
+			"name_zh-cn": "虎",
+			"nation": "uk",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"4081006384": {
+			"name_en-us": "Moltke",
+			"name_zh-cn": "毛奇",
+			"nation": "germany",
+			"tier": 4,
+			"type": "Battleship"
+		},
+		"4081006544": {
+			"name_en-us": "Queen Mary",
+			"name_zh-cn": "玛丽女王",
+			"nation": "uk",
+			"tier": 4,
+			"type": "Battleship"
+		},
+		"4081039312": {
+			"name_en-us": "Hermes",
+			"name_zh-cn": "竞技神",
+			"nation": "uk",
+			"tier": 4,
+			"type": "AirCarrier"
+		},
+		"4082054960": {
+			"name_en-us": "Von der Tann",
+			"name_zh-cn": "冯·德·坦恩",
+			"nation": "germany",
+			"tier": 3,
+			"type": "Battleship"
+		},
+		"4082055120": {
+			"name_en-us": "Indefatigable",
+			"name_zh-cn": "不倦",
+			"nation": "uk",
+			"tier": 3,
+			"type": "Battleship"
+		},
+		"4178457808": {
+			"name_en-us": "Kunming",
+			"name_zh-cn": "昆明",
+			"nation": "pan_asia",
+			"tier": 11,
+			"type": "Destroyer"
+		},
+		"4178457904": {
+			"name_en-us": "Dalarna",
+			"name_zh-cn": "达拉纳",
+			"nation": "europe",
+			"tier": 11,
+			"type": "Destroyer"
+		},
+		"4178458064": {
+			"name_en-us": "Zorkiy",
+			"name_zh-cn": "佐尔基",
+			"nation": "ussr",
+			"tier": 11,
+			"type": "Destroyer"
+		},
+		"4178458320": {
+			"name_en-us": "Yamagiri",
+			"name_zh-cn": "山雾",
+			"nation": "japan",
+			"tier": 11,
+			"type": "Destroyer"
+		},
+		"4178458608": {
+			"name_en-us": "J. Humphreys",
+			"name_zh-cn": "约书亚·汉弗莱斯",
+			"nation": "usa",
+			"tier": 11,
+			"type": "Destroyer"
+		},
+		"4178490832": {
+			"name_en-us": "Novosibirsk",
+			"name_zh-cn": "新西伯利亚",
+			"nation": "ussr",
+			"tier": 11,
+			"type": "Cruiser"
+		},
+		"4178491184": {
+			"name_en-us": "Clausewitz",
+			"name_zh-cn": "克劳塞维茨",
+			"nation": "germany",
+			"tier": 11,
+			"type": "Cruiser"
+		},
+		"4178491216": {
+			"name_en-us": "Condé",
+			"name_zh-cn": "孔代",
+			"nation": "france",
+			"tier": 11,
+			"type": "Cruiser"
+		},
+		"4178491344": {
+			"name_en-us": "Edgar",
+			"name_zh-cn": "埃德加",
+			"nation": "uk",
+			"tier": 11,
+			"type": "Cruiser"
+		},
+		"4178491376": {
+			"name_en-us": "Annapolis",
+			"name_zh-cn": "安纳波利斯",
+			"nation": "usa",
+			"tier": 11,
+			"type": "Cruiser"
+		},
+		"4178523600": {
+			"name_en-us": "Ushakov",
+			"name_zh-cn": "乌沙科夫上将",
+			"nation": "ussr",
+			"tier": 11,
+			"type": "Battleship"
+		},
+		"4178523856": {
+			"name_en-us": "Satsuma",
+			"name_zh-cn": "萨摩",
+			"nation": "japan",
+			"tier": 11,
+			"type": "Battleship"
+		},
+		"4178523952": {
+			"name_en-us": "Hannover",
+			"name_zh-cn": "汉诺威",
+			"nation": "germany",
+			"tier": 11,
+			"type": "Battleship"
+		},
+		"4178523984": {
+			"name_en-us": "Patrie",
+			"name_zh-cn": "祖国",
+			"nation": "france",
+			"tier": 11,
+			"type": "Battleship"
+		},
+		"4178524112": {
+			"name_en-us": "Devastation",
+			"name_zh-cn": "毁灭",
+			"nation": "uk",
+			"tier": 11,
+			"type": "Battleship"
+		},
+		"4178556624": {
+			"name_en-us": "Sekiryu",
+			"name_zh-cn": "赤龙",
+			"nation": "japan",
+			"tier": 11,
+			"type": "AirCarrier"
+		},
+		"4178556880": {
+			"name_en-us": "Eagle",
+			"name_zh-cn": "老鹰",
+			"nation": "uk",
+			"tier": 11,
+			"type": "AirCarrier"
+		},
+		"4178556912": {
+			"name_en-us": "United States",
+			"name_zh-cn": "合众国",
+			"nation": "usa",
+			"tier": 11,
+			"type": "AirCarrier"
+		},
+		"4179015632": {
+			"name_en-us": "Thrasher",
+			"name_zh-cn": "长尾鲨",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Submarine"
+		},
+		"4179506384": {
+			"name_en-us": "Yueyang",
+			"name_zh-cn": "岳阳",
+			"nation": "pan_asia",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4179506480": {
+			"name_en-us": "Halland",
+			"name_zh-cn": "哈兰",
+			"nation": "europe",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4179506640": {
+			"name_en-us": "Khabarovsk",
+			"name_zh-cn": "哈巴罗夫斯克",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4179506928": {
+			"name_en-us": "A. Regolo",
+			"name_zh-cn": "阿蒂略·莱戈洛",
+			"nation": "italy",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4179506992": {
+			"name_en-us": "Z-52",
+			"name_zh-cn": "Z-52",
+			"nation": "germany",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4179507024": {
+			"name_en-us": "Kléber",
+			"name_zh-cn": "克莱贝尔",
+			"nation": "france",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4179507152": {
+			"name_en-us": "Daring",
+			"name_zh-cn": "果敢",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4179539152": {
+			"name_en-us": "Jinan",
+			"name_zh-cn": "济南",
+			"nation": "pan_asia",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4179539280": {
+			"name_en-us": "San Martín",
+			"name_zh-cn": "圣马丁",
+			"nation": "pan_america",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4179539376": {
+			"name_en-us": "Castilla",
+			"name_zh-cn": "卡斯蒂利亚",
+			"nation": "spain",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4179539408": {
+			"name_en-us": "Moskva",
+			"name_zh-cn": "莫斯科",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4179539696": {
+			"name_en-us": "Venezia",
+			"name_zh-cn": "威尼斯",
+			"nation": "italy",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4179539728": {
+			"name_en-us": "Gouden Leeuw",
+			"name_zh-cn": "金狮",
+			"nation": "netherlands",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4179539760": {
+			"name_en-us": "Hindenburg",
+			"name_zh-cn": "兴登堡",
+			"nation": "germany",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4179539792": {
+			"name_en-us": "Henri IV",
+			"name_zh-cn": "亨利四世",
+			"nation": "france",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4179539920": {
+			"name_en-us": "Minotaur",
+			"name_zh-cn": "米诺陶",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4179572176": {
+			"name_en-us": "Kremlin",
+			"name_zh-cn": "克里姆林",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"4179572464": {
+			"name_en-us": "C. Colombo",
+			"name_zh-cn": "克里斯托弗·哥伦布",
+			"nation": "italy",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"4179572528": {
+			"name_en-us": "G. Kurfürst",
+			"name_zh-cn": "大选帝侯",
+			"nation": "germany",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"4179572560": {
+			"name_en-us": "République",
+			"name_zh-cn": "共和国",
+			"nation": "france",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"4179572688": {
+			"name_en-us": "Conqueror",
+			"name_zh-cn": "征服者",
+			"nation": "uk",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"4179572720": {
+			"name_en-us": "Vermont",
+			"name_zh-cn": "佛蒙特",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"4179604944": {
+			"name_en-us": "Nakhimov",
+			"name_zh-cn": "纳希莫夫海军上将",
+			"nation": "ussr",
+			"tier": 10,
+			"type": "AirCarrier"
+		},
+		"4179605200": {
+			"name_en-us": "Hakuryū",
+			"name_zh-cn": "白龙",
+			"nation": "japan",
+			"tier": 10,
+			"type": "AirCarrier"
+		},
+		"4179605296": {
+			"name_en-us": "M. Richthofen",
+			"name_zh-cn": "M·里希特霍芬",
+			"nation": "germany",
+			"tier": 10,
+			"type": "AirCarrier"
+		},
+		"4179605488": {
+			"name_en-us": "Midway",
+			"name_zh-cn": "中途岛",
+			"nation": "usa",
+			"tier": 10,
+			"type": "AirCarrier"
+		},
+		"4180554960": {
+			"name_en-us": "Chung Mu",
+			"name_zh-cn": "忠武",
+			"nation": "pan_asia",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"4180555056": {
+			"name_en-us": "Östergötland",
+			"name_zh-cn": "东约特兰",
+			"nation": "europe",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"4180555504": {
+			"name_en-us": "Adriatico",
+			"name_zh-cn": "亚得里亚",
+			"nation": "italy",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"4180555568": {
+			"name_en-us": "Z-46",
+			"name_zh-cn": "Z-46",
+			"nation": "germany",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"4180555600": {
+			"name_en-us": "Mogador",
+			"name_zh-cn": "莫加多尔",
+			"nation": "france",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"4180555728": {
+			"name_en-us": "Jutland",
+			"name_zh-cn": "日德兰",
+			"nation": "uk",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"4180587728": {
+			"name_en-us": "Sejong",
+			"name_zh-cn": "世宗",
+			"nation": "pan_asia",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4180587856": {
+			"name_en-us": "Santander",
+			"name_zh-cn": "桑坦德",
+			"nation": "pan_america",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4180587952": {
+			"name_en-us": "Andalucía",
+			"name_zh-cn": "安达卢西亚",
+			"nation": "spain",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4180587984": {
+			"name_en-us": "Dm. Donskoi",
+			"name_zh-cn": "迪米特里-顿斯科伊",
+			"nation": "ussr",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4180588272": {
+			"name_en-us": "Brindisi",
+			"name_zh-cn": "布林迪西",
+			"nation": "italy",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4180588304": {
+			"name_en-us": "Johan de Witt",
+			"name_zh-cn": "约翰·德·维特",
+			"nation": "netherlands",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4180588336": {
+			"name_en-us": "Roon",
+			"name_zh-cn": "罗恩",
+			"nation": "germany",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4180588368": {
+			"name_en-us": "Saint-Louis",
+			"name_zh-cn": "路易九世",
+			"nation": "france",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4180588496": {
+			"name_en-us": "Neptune",
+			"name_zh-cn": "海王星",
+			"nation": "uk",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4180588528": {
+			"name_en-us": "Buffalo",
+			"name_zh-cn": "水牛城",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4180620752": {
+			"name_en-us": "Sov. Soyuz",
+			"name_zh-cn": "苏联",
+			"nation": "ussr",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"4180621040": {
+			"name_en-us": "Lepanto",
+			"name_zh-cn": "勒班陀",
+			"nation": "italy",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"4180621104": {
+			"name_en-us": "F. der Grosse",
+			"name_zh-cn": "腓特烈大帝",
+			"nation": "germany",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"4180621136": {
+			"name_en-us": "Alsace",
+			"name_zh-cn": "阿尔萨斯",
+			"nation": "france",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"4180621264": {
+			"name_en-us": "Lion",
+			"name_zh-cn": "狮",
+			"nation": "uk",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"4180621296": {
+			"name_en-us": "Minnesota",
+			"name_zh-cn": "明尼苏达",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"4181112784": {
+			"name_en-us": "Sturdy",
+			"name_zh-cn": "强健",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Submarine"
+		},
+		"4181603536": {
+			"name_en-us": "Hsienyang",
+			"name_zh-cn": "咸阳",
+			"nation": "pan_asia",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4181603632": {
+			"name_en-us": "Öland",
+			"name_zh-cn": "厄兰",
+			"nation": "europe",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4181604048": {
+			"name_en-us": "Akizuki",
+			"name_zh-cn": "秋月",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4181604080": {
+			"name_en-us": "V. Cuniberti",
+			"name_zh-cn": "维托里奥·库尼贝尔蒂",
+			"nation": "italy",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4181604144": {
+			"name_en-us": "Z-23",
+			"name_zh-cn": "Z-23",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4181604176": {
+			"name_en-us": "Le Fantasque",
+			"name_zh-cn": "空想",
+			"nation": "france",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4181604304": {
+			"name_en-us": "Lightning",
+			"name_zh-cn": "雷电",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4181636304": {
+			"name_en-us": "Harbin",
+			"name_zh-cn": "哈尔滨",
+			"nation": "pan_asia",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4181636432": {
+			"name_en-us": "Ignacio Allende",
+			"name_zh-cn": "伊格纳西奥·阿连德",
+			"nation": "pan_america",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4181636528": {
+			"name_en-us": "Cataluña",
+			"name_zh-cn": "加泰罗尼亚",
+			"nation": "spain",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4181636560": {
+			"name_en-us": "Chapayev",
+			"name_zh-cn": "恰巴耶夫",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4181636848": {
+			"name_en-us": "Amalfi",
+			"name_zh-cn": "阿马尔菲",
+			"nation": "italy",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4181636880": {
+			"name_en-us": "Haarlem",
+			"name_zh-cn": "哈勒姆",
+			"nation": "netherlands",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4181636912": {
+			"name_en-us": "Hipper",
+			"name_zh-cn": "希佩尔上将",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4181636944": {
+			"name_en-us": "Charles Martel",
+			"name_zh-cn": "查理-马特",
+			"nation": "france",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4181637072": {
+			"name_en-us": "Edinburgh",
+			"name_zh-cn": "爱丁堡",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4181637104": {
+			"name_en-us": "Baltimore",
+			"name_zh-cn": "巴尔的摩",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4181669328": {
+			"name_en-us": "Vladivostok",
+			"name_zh-cn": "符拉迪沃斯托克",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"4181669616": {
+			"name_en-us": "V. Veneto",
+			"name_zh-cn": "维托里奥·维内托",
+			"nation": "italy",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"4181669680": {
+			"name_en-us": "Bismarck",
+			"name_zh-cn": "俾斯麦",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"4181669712": {
+			"name_en-us": "Richelieu",
+			"name_zh-cn": "黎塞留",
+			"nation": "france",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"4181669840": {
+			"name_en-us": "Monarch",
+			"name_zh-cn": "君主",
+			"nation": "uk",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"4181669872": {
+			"name_en-us": "Kansas",
+			"name_zh-cn": "堪萨斯",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"4181702096": {
+			"name_en-us": "Pobeda",
+			"name_zh-cn": "胜利",
+			"nation": "ussr",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"4181702352": {
+			"name_en-us": "Shōkaku",
+			"name_zh-cn": "翔鹤",
+			"nation": "japan",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"4181702448": {
+			"name_en-us": "A. Parseval",
+			"name_zh-cn": "奥古斯特·冯·帕塞瓦尔",
+			"nation": "germany",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"4181702608": {
+			"name_en-us": "Implacable",
+			"name_zh-cn": "怨仇",
+			"nation": "uk",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"4181702640": {
+			"name_en-us": "Lexington",
+			"name_zh-cn": "列克星敦",
+			"nation": "usa",
+			"tier": 8,
+			"type": "AirCarrier"
+		},
+		"4182652112": {
+			"name_en-us": "Gadjah Mada",
+			"name_zh-cn": "加札马达",
+			"nation": "pan_asia",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"4182652208": {
+			"name_en-us": "Skåne",
+			"name_zh-cn": "斯科讷",
+			"nation": "europe",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"4182652368": {
+			"name_en-us": "Udaloi",
+			"name_zh-cn": "无畏",
+			"nation": "ussr",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"4182652624": {
+			"name_en-us": "Akatsuki",
+			"name_zh-cn": "晓",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"4182652656": {
+			"name_en-us": "L. Tarigo",
+			"name_zh-cn": "卢卡·塔里戈",
+			"nation": "italy",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"4182652720": {
+			"name_en-us": "Maass",
+			"name_zh-cn": "莱伯勒希特-马斯",
+			"nation": "germany",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"4182652752": {
+			"name_en-us": "Vauquelin",
+			"name_zh-cn": "沃克兰",
+			"nation": "france",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"4182652880": {
+			"name_en-us": "Jervis",
+			"name_zh-cn": "杰维斯",
+			"nation": "uk",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"4182684880": {
+			"name_en-us": "Chumphon",
+			"name_zh-cn": "春蓬",
+			"nation": "pan_asia",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4182685008": {
+			"name_en-us": "Cor. Bolognesi",
+			"name_zh-cn": "博洛涅西上校",
+			"nation": "pan_america",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4182685104": {
+			"name_en-us": "Asturias",
+			"name_zh-cn": "阿斯图里亚斯",
+			"nation": "spain",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4182685136": {
+			"name_en-us": "Shchors",
+			"name_zh-cn": "肖尔斯",
+			"nation": "ussr",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4182685424": {
+			"name_en-us": "Zara",
+			"name_zh-cn": "扎拉",
+			"nation": "italy",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4182685456": {
+			"name_en-us": "Eendracht",
+			"name_zh-cn": "团结",
+			"nation": "netherlands",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4182685488": {
+			"name_en-us": "Yorck",
+			"name_zh-cn": "约克",
+			"nation": "germany",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4182685520": {
+			"name_en-us": "Algérie",
+			"name_zh-cn": "阿尔及利亚",
+			"nation": "france",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4182685648": {
+			"name_en-us": "Fiji",
+			"name_zh-cn": "斐济",
+			"nation": "uk",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4182685680": {
+			"name_en-us": "New Orleans",
+			"name_zh-cn": "新奥尔良",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4182717904": {
+			"name_en-us": "Sinop",
+			"name_zh-cn": "锡诺普",
+			"nation": "ussr",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"4182718192": {
+			"name_en-us": "F. Caracciolo",
+			"name_zh-cn": "弗朗切斯科·卡拉乔洛",
+			"nation": "italy",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"4182718256": {
+			"name_en-us": "Gneisenau",
+			"name_zh-cn": "格奈森瑙",
+			"nation": "germany",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"4182718288": {
+			"name_en-us": "Lyon",
+			"name_zh-cn": "里昂",
+			"nation": "france",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"4182718416": {
+			"name_en-us": "King George V",
+			"name_zh-cn": "英王乔治五世",
+			"nation": "uk",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"4183209936": {
+			"name_en-us": "Undine",
+			"name_zh-cn": "温蒂妮",
+			"nation": "uk",
+			"tier": 6,
+			"type": "Submarine"
+		},
+		"4183700688": {
+			"name_en-us": "Fushun",
+			"name_zh-cn": "抚顺",
+			"nation": "pan_asia",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"4183700784": {
+			"name_en-us": "Västerås",
+			"name_zh-cn": "韦斯特罗斯",
+			"nation": "europe",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"4183701200": {
+			"name_en-us": "Fubuki",
+			"name_zh-cn": "吹雪",
+			"nation": "japan",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"4183701232": {
+			"name_en-us": "Aviere",
+			"name_zh-cn": "阿维埃尔",
+			"nation": "italy",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"4183701296": {
+			"name_en-us": "Gaede",
+			"name_zh-cn": "恩斯特-盖德",
+			"nation": "germany",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"4183701328": {
+			"name_en-us": "Guépard",
+			"name_zh-cn": "猎豹",
+			"nation": "france",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"4183701456": {
+			"name_en-us": "Icarus",
+			"name_zh-cn": "伊卡洛斯",
+			"nation": "uk",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"4183733456": {
+			"name_en-us": "Rahmat",
+			"name_zh-cn": "拉赫马特",
+			"nation": "pan_asia",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4183733584": {
+			"name_en-us": "Alte Cochrane",
+			"name_zh-cn": "科克伦海军上将",
+			"nation": "pan_america",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4183733680": {
+			"name_en-us": "Baleares",
+			"name_zh-cn": "巴利阿里",
+			"nation": "spain",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4183733712": {
+			"name_en-us": "Budyonny",
+			"name_zh-cn": "布琼尼",
+			"nation": "ussr",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4183734000": {
+			"name_en-us": "Trento",
+			"name_zh-cn": "特伦托",
+			"nation": "italy",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4183734032": {
+			"name_en-us": "Kijkduin",
+			"name_zh-cn": "凯敦",
+			"nation": "netherlands",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4183734064": {
+			"name_en-us": "Nürnberg",
+			"name_zh-cn": "纽伦堡",
+			"nation": "germany",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4183734096": {
+			"name_en-us": "La Galissonnière",
+			"name_zh-cn": "拉加利索尼埃",
+			"nation": "france",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4183734224": {
+			"name_en-us": "Leander",
+			"name_zh-cn": "利安得",
+			"nation": "uk",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4183734256": {
+			"name_en-us": "Pensacola",
+			"name_zh-cn": "彭萨科拉",
+			"nation": "usa",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4183766480": {
+			"name_en-us": "Izmail",
+			"name_zh-cn": "伊兹梅尔",
+			"nation": "ussr",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"4183766768": {
+			"name_en-us": "Andrea Doria",
+			"name_zh-cn": "安德烈亚·多里亚",
+			"nation": "italy",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"4183766832": {
+			"name_en-us": "Bayern",
+			"name_zh-cn": "巴伐利亚",
+			"nation": "germany",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"4183766864": {
+			"name_en-us": "Normandie",
+			"name_zh-cn": "诺曼底",
+			"nation": "france",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"4183766992": {
+			"name_en-us": "Queen Elizabeth",
+			"name_zh-cn": "伊丽莎白女王",
+			"nation": "uk",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"4183799248": {
+			"name_en-us": "Serov",
+			"name_zh-cn": "谢罗夫",
+			"nation": "ussr",
+			"tier": 6,
+			"type": "AirCarrier"
+		},
+		"4183799504": {
+			"name_en-us": "Ryūjō",
+			"name_zh-cn": "龙骧",
+			"nation": "japan",
+			"tier": 6,
+			"type": "AirCarrier"
+		},
+		"4183799600": {
+			"name_en-us": "Weser",
+			"name_zh-cn": "威悉河",
+			"nation": "germany",
+			"tier": 6,
+			"type": "AirCarrier"
+		},
+		"4183799760": {
+			"name_en-us": "Furious",
+			"name_zh-cn": "暴怒",
+			"nation": "uk",
+			"tier": 6,
+			"type": "AirCarrier"
+		},
+		"4183799792": {
+			"name_en-us": "Ranger",
+			"name_zh-cn": "突击者",
+			"nation": "usa",
+			"tier": 6,
+			"type": "AirCarrier"
+		},
+		"4184749264": {
+			"name_en-us": "Jianwei",
+			"name_zh-cn": "建威",
+			"nation": "pan_asia",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4184749360": {
+			"name_en-us": "Visby",
+			"name_zh-cn": "维斯比",
+			"nation": "europe",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4184749776": {
+			"name_en-us": "Mutsuki",
+			"name_zh-cn": "睦月",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4184749808": {
+			"name_en-us": "Maestrale",
+			"name_zh-cn": "西北风",
+			"nation": "italy",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4184749872": {
+			"name_en-us": "T-22",
+			"name_zh-cn": "T-22",
+			"nation": "germany",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4184749904": {
+			"name_en-us": "Jaguar",
+			"name_zh-cn": "美洲豹",
+			"nation": "france",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4184750032": {
+			"name_en-us": "Acasta",
+			"name_zh-cn": "阿卡司塔",
+			"nation": "uk",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4184782032": {
+			"name_en-us": "Chungking",
+			"name_zh-cn": "重庆",
+			"nation": "pan_asia",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4184782160": {
+			"name_en-us": "La Argentina",
+			"name_zh-cn": "阿根廷",
+			"nation": "pan_america",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4184782256": {
+			"name_en-us": "Galicia",
+			"name_zh-cn": "加利西亚",
+			"nation": "spain",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4184782576": {
+			"name_en-us": "Montecuccoli",
+			"name_zh-cn": "莱蒙多·蒙德库克利",
+			"nation": "italy",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4184782608": {
+			"name_en-us": "Celebes",
+			"name_zh-cn": "西里伯斯",
+			"nation": "netherlands",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4184782640": {
+			"name_en-us": "Königsberg",
+			"name_zh-cn": "柯尼斯堡",
+			"nation": "germany",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4184782672": {
+			"name_en-us": "Émile Bertin",
+			"name_zh-cn": "白劳易",
+			"nation": "france",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4184782800": {
+			"name_en-us": "Emerald",
+			"name_zh-cn": "翡翠",
+			"nation": "uk",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4184815056": {
+			"name_en-us": "Pyotr Velikiy",
+			"name_zh-cn": "彼得大帝",
+			"nation": "ussr",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"4184815344": {
+			"name_en-us": "Cavour",
+			"name_zh-cn": "加富尔伯爵",
+			"nation": "italy",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"4184815408": {
+			"name_en-us": "König",
+			"name_zh-cn": "国王",
+			"nation": "germany",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"4184815440": {
+			"name_en-us": "Bretagne",
+			"name_zh-cn": "布列塔尼",
+			"nation": "france",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"4184815568": {
+			"name_en-us": "Iron Duke",
+			"name_zh-cn": "铁公爵",
+			"nation": "uk",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"4185797840": {
+			"name_en-us": "Shenyang",
+			"name_zh-cn": "沈阳",
+			"nation": "pan_asia",
+			"tier": 4,
+			"type": "Destroyer"
+		},
+		"4185797936": {
+			"name_en-us": "Klas Horn",
+			"name_zh-cn": "克拉斯·霍恩",
+			"nation": "europe",
+			"tier": 4,
+			"type": "Destroyer"
+		},
+		"4185798096": {
+			"name_en-us": "Izyaslav",
+			"name_zh-cn": "伊贾斯拉夫",
+			"nation": "ussr",
+			"tier": 4,
+			"type": "Destroyer"
+		},
+		"4185798384": {
+			"name_en-us": "Turbine",
+			"name_zh-cn": "图尔比内",
+			"nation": "italy",
+			"tier": 4,
+			"type": "Destroyer"
+		},
+		"4185798448": {
+			"name_en-us": "V-170",
+			"name_zh-cn": "V-170",
+			"nation": "germany",
+			"tier": 4,
+			"type": "Destroyer"
+		},
+		"4185798480": {
+			"name_en-us": "Bourrasque",
+			"name_zh-cn": "狂风",
+			"nation": "france",
+			"tier": 4,
+			"type": "Destroyer"
+		},
+		"4185798608": {
+			"name_en-us": "Wakeful",
+			"name_zh-cn": "清醒",
+			"nation": "uk",
+			"tier": 4,
+			"type": "Destroyer"
+		},
+		"4185830736": {
+			"name_en-us": "Córdoba",
+			"name_zh-cn": "科尔多瓦",
+			"nation": "pan_america",
+			"tier": 4,
+			"type": "Cruiser"
+		},
+		"4185830832": {
+			"name_en-us": "Almte. Cervera",
+			"name_zh-cn": "赛韦拉海军上将",
+			"nation": "spain",
+			"tier": 4,
+			"type": "Cruiser"
+		},
+		"4185830864": {
+			"name_en-us": "Svietlana",
+			"name_zh-cn": "斯维特拉那",
+			"nation": "ussr",
+			"tier": 4,
+			"type": "Cruiser"
+		},
+		"4185831152": {
+			"name_en-us": "Giussano",
+			"name_zh-cn": "阿尔贝托·迪·朱桑诺",
+			"nation": "italy",
+			"tier": 4,
+			"type": "Cruiser"
+		},
+		"4185831184": {
+			"name_en-us": "De Ruyter",
+			"name_zh-cn": "德·鲁伊特",
+			"nation": "netherlands",
+			"tier": 4,
+			"type": "Cruiser"
+		},
+		"4185831216": {
+			"name_en-us": "Karlsruhe",
+			"name_zh-cn": "卡尔斯鲁厄",
+			"nation": "germany",
+			"tier": 4,
+			"type": "Cruiser"
+		},
+		"4185831248": {
+			"name_en-us": "Duguay-Trouin",
+			"name_zh-cn": "迪盖-特鲁安",
+			"nation": "france",
+			"tier": 4,
+			"type": "Cruiser"
+		},
+		"4185831376": {
+			"name_en-us": "Danae",
+			"name_zh-cn": "达娜厄",
+			"nation": "uk",
+			"tier": 4,
+			"type": "Cruiser"
+		},
+		"4185863632": {
+			"name_en-us": "Gangut",
+			"name_zh-cn": "甘古特",
+			"nation": "ussr",
+			"tier": 4,
+			"type": "Battleship"
+		},
+		"4185863920": {
+			"name_en-us": "D. Alighieri",
+			"name_zh-cn": "但丁·阿利格伊切里",
+			"nation": "italy",
+			"tier": 4,
+			"type": "Battleship"
+		},
+		"4185863984": {
+			"name_en-us": "Kaiser",
+			"name_zh-cn": "凯撒",
+			"nation": "germany",
+			"tier": 4,
+			"type": "Battleship"
+		},
+		"4185864016": {
+			"name_en-us": "Courbet",
+			"name_zh-cn": "孤拔",
+			"nation": "france",
+			"tier": 4,
+			"type": "Battleship"
+		},
+		"4185864144": {
+			"name_en-us": "Orion",
+			"name_zh-cn": "猎户座",
+			"nation": "uk",
+			"tier": 4,
+			"type": "Battleship"
+		},
+		"4185896400": {
+			"name_en-us": "Komsomolets",
+			"name_zh-cn": "共青团员",
+			"nation": "ussr",
+			"tier": 4,
+			"type": "AirCarrier"
+		},
+		"4185896656": {
+			"name_en-us": "Hōshō",
+			"name_zh-cn": "凤翔",
+			"nation": "japan",
+			"tier": 4,
+			"type": "AirCarrier"
+		},
+		"4185896752": {
+			"name_en-us": "Rhein",
+			"name_zh-cn": "莱茵河",
+			"nation": "germany",
+			"tier": 4,
+			"type": "AirCarrier"
+		},
+		"4185896944": {
+			"name_en-us": "Langley",
+			"name_zh-cn": "兰利",
+			"nation": "usa",
+			"tier": 4,
+			"type": "AirCarrier"
+		},
+		"4186846416": {
+			"name_en-us": "Phra Ruang",
+			"name_zh-cn": "帕禳",
+			"nation": "pan_asia",
+			"tier": 3,
+			"type": "Destroyer"
+		},
+		"4186846512": {
+			"name_en-us": "Romulus",
+			"name_zh-cn": "罗慕路斯",
+			"nation": "europe",
+			"tier": 3,
+			"type": "Destroyer"
+		},
+		"4186846672": {
+			"name_en-us": "Derzki",
+			"name_zh-cn": "无理",
+			"nation": "ussr",
+			"tier": 3,
+			"type": "Destroyer"
+		},
+		"4186846960": {
+			"name_en-us": "N. Sauro",
+			"name_zh-cn": "纳扎里奥·萨乌罗",
+			"nation": "italy",
+			"tier": 3,
+			"type": "Destroyer"
+		},
+		"4186847024": {
+			"name_en-us": "G-101",
+			"name_zh-cn": "G-101",
+			"nation": "germany",
+			"tier": 3,
+			"type": "Destroyer"
+		},
+		"4186847056": {
+			"name_en-us": "Fusilier",
+			"name_zh-cn": "燧发枪兵",
+			"nation": "france",
+			"tier": 3,
+			"type": "Destroyer"
+		},
+		"4186847184": {
+			"name_en-us": "Valkyrie",
+			"name_zh-cn": "女武神",
+			"nation": "uk",
+			"tier": 3,
+			"type": "Destroyer"
+		},
+		"4186879312": {
+			"name_en-us": "Vicente Guerrero",
+			"name_zh-cn": "维森特·格雷罗",
+			"nation": "pan_america",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"4186879408": {
+			"name_en-us": "Navarra",
+			"name_zh-cn": "纳瓦拉",
+			"nation": "spain",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"4186879440": {
+			"name_en-us": "Bogatyr",
+			"name_zh-cn": "博加特里",
+			"nation": "ussr",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"4186879728": {
+			"name_en-us": "Taranto",
+			"name_zh-cn": "塔兰托",
+			"nation": "italy",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"4186879760": {
+			"name_en-us": "Java",
+			"name_zh-cn": "爪哇",
+			"nation": "netherlands",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"4186879792": {
+			"name_en-us": "Kolberg",
+			"name_zh-cn": "科尔贝格",
+			"nation": "germany",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"4186879824": {
+			"name_en-us": "Friant",
+			"name_zh-cn": "弗利昂",
+			"nation": "france",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"4186879952": {
+			"name_en-us": "Caledon",
+			"name_zh-cn": "卡利登",
+			"nation": "uk",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"4186912208": {
+			"name_en-us": "Knyaz Suvorov",
+			"name_zh-cn": "苏沃洛夫公爵",
+			"nation": "ussr",
+			"tier": 3,
+			"type": "Battleship"
+		},
+		"4186912560": {
+			"name_en-us": "Nassau",
+			"name_zh-cn": "拿骚",
+			"nation": "germany",
+			"tier": 3,
+			"type": "Battleship"
+		},
+		"4186912592": {
+			"name_en-us": "Turenne",
+			"name_zh-cn": "杜伦尼",
+			"nation": "france",
+			"tier": 3,
+			"type": "Battleship"
+		},
+		"4186912720": {
+			"name_en-us": "Bellerophon",
+			"name_zh-cn": "柏勒罗丰",
+			"nation": "uk",
+			"tier": 3,
+			"type": "Battleship"
+		},
+		"4187894992": {
+			"name_en-us": "Longjiang",
+			"name_zh-cn": "龙江",
+			"nation": "pan_asia",
+			"tier": 2,
+			"type": "Destroyer"
+		},
+		"4187895088": {
+			"name_en-us": "Tátra",
+			"name_zh-cn": "塔特拉",
+			"nation": "europe",
+			"tier": 2,
+			"type": "Destroyer"
+		},
+		"4187895248": {
+			"name_en-us": "Storozhevoi",
+			"name_zh-cn": "守卫",
+			"nation": "ussr",
+			"tier": 2,
+			"type": "Destroyer"
+		},
+		"4187895536": {
+			"name_en-us": "Curtatone",
+			"name_zh-cn": "库尔塔托内",
+			"nation": "italy",
+			"tier": 2,
+			"type": "Destroyer"
+		},
+		"4187895600": {
+			"name_en-us": "V-25",
+			"name_zh-cn": "V-25",
+			"nation": "germany",
+			"tier": 2,
+			"type": "Destroyer"
+		},
+		"4187895632": {
+			"name_en-us": "En. Gabolde",
+			"name_zh-cn": "加博尔德海军少尉",
+			"nation": "france",
+			"tier": 2,
+			"type": "Destroyer"
+		},
+		"4187895760": {
+			"name_en-us": "Medea",
+			"name_zh-cn": "美狄亚",
+			"nation": "uk",
+			"tier": 2,
+			"type": "Destroyer"
+		},
+		"4187927888": {
+			"name_en-us": "Alte Barroso",
+			"name_zh-cn": "巴罗索海军上将",
+			"nation": "pan_america",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"4187927984": {
+			"name_en-us": "Méndez Núñez",
+			"name_zh-cn": "门德斯·努涅斯",
+			"nation": "spain",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"4187928016": {
+			"name_en-us": "Novik",
+			"name_zh-cn": "诺维克",
+			"nation": "ussr",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"4187928304": {
+			"name_en-us": "Nino Bixio",
+			"name_zh-cn": "尼诺·比西奥",
+			"nation": "italy",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"4187928336": {
+			"name_en-us": "Gelderland",
+			"name_zh-cn": "海尔德兰",
+			"nation": "netherlands",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"4187928400": {
+			"name_en-us": "Jurien",
+			"name_zh-cn": "尤里安-格拉维",
+			"nation": "france",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"4187928528": {
+			"name_en-us": "Weymouth",
+			"name_zh-cn": "韦茅斯",
+			"nation": "uk",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"4188976336": {
+			"name_en-us": "Chengan",
+			"name_zh-cn": "成安",
+			"nation": "pan_asia",
+			"tier": 1,
+			"type": "Cruiser"
+		},
+		"4188976432": {
+			"name_en-us": "Gryf",
+			"name_zh-cn": "狮鹫",
+			"nation": "europe",
+			"tier": 1,
+			"type": "Cruiser"
+		},
+		"4188976464": {
+			"name_en-us": "Hércules",
+			"name_zh-cn": "赫丘利",
+			"nation": "pan_america",
+			"tier": 1,
+			"type": "Cruiser"
+		},
+		"4188976560": {
+			"name_en-us": "Júpiter",
+			"name_zh-cn": "朱庇特",
+			"nation": "spain",
+			"tier": 1,
+			"type": "Cruiser"
+		},
+		"4188976592": {
+			"name_en-us": "Orlan",
+			"name_zh-cn": "海雕",
+			"nation": "ussr",
+			"tier": 1,
+			"type": "Cruiser"
+		},
+		"4188976880": {
+			"name_en-us": "Eritrea",
+			"name_zh-cn": "厄立特里亚",
+			"nation": "italy",
+			"tier": 1,
+			"type": "Cruiser"
+		},
+		"4188976912": {
+			"name_en-us": "Van Kinsbergen",
+			"name_zh-cn": "范·金斯伯根",
+			"nation": "netherlands",
+			"tier": 1,
+			"type": "Cruiser"
+		},
+		"4188976976": {
+			"name_en-us": "Bougainville",
+			"name_zh-cn": "布甘维尔",
+			"nation": "france",
+			"tier": 1,
+			"type": "Cruiser"
+		},
+		"4188977104": {
+			"name_en-us": "Black Swan",
+			"name_zh-cn": "黑天鹅",
+			"nation": "uk",
+			"tier": 1,
+			"type": "Cruiser"
+		},
+		"4247697392": {
+			"name_en-us": "Marblehead L",
+			"name_zh-cn": "马布尔黑德 L",
+			"nation": "usa",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4248745968": {
+			"name_en-us": "Marblehead",
+			"name_zh-cn": "马布尔黑德",
+			"nation": "usa",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4255037136": {
+			"name_en-us": "Atago",
+			"name_zh-cn": "爱宕",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4256085712": {
+			"name_en-us": "Hashidate",
+			"name_zh-cn": "桥立",
+			"nation": "japan",
+			"tier": 1,
+			"type": "Cruiser"
+		},
+		"4258182864": {
+			"name_en-us": "Chikuma",
+			"name_zh-cn": "筑摩",
+			"nation": "japan",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"4259231440": {
+			"name_en-us": "Zaō",
+			"name_zh-cn": "藏王",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4259264496": {
+			"name_en-us": "New Mexico",
+			"name_zh-cn": "新墨西哥",
+			"nation": "usa",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"4264441840": {
+			"name_en-us": "Sims",
+			"name_zh-cn": "西姆斯",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"4266538992": {
+			"name_en-us": "Wickes",
+			"name_zh-cn": "维克斯",
+			"nation": "usa",
+			"tier": 3,
+			"type": "Destroyer"
+		},
+		"4267587280": {
+			"name_en-us": "Kamikaze R",
+			"name_zh-cn": "神风 R",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4267620048": {
+			"name_en-us": "Iwaki A",
+			"name_zh-cn": "岩城 Alpha",
+			"nation": "japan",
+			"tier": 4,
+			"type": "Cruiser"
+		},
+		"4268635856": {
+			"name_en-us": "Kamikaze",
+			"name_zh-cn": "神风",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4269684432": {
+			"name_en-us": "Wakatake",
+			"name_zh-cn": "若竹",
+			"nation": "japan",
+			"tier": 3,
+			"type": "Destroyer"
+		},
+		"4269717488": {
+			"name_en-us": "Phoenix",
+			"name_zh-cn": "凤凰城",
+			"nation": "usa",
+			"tier": 4,
+			"type": "Cruiser"
+		},
+		"4272830448": {
+			"name_en-us": "Fletcher",
+			"name_zh-cn": "弗莱彻",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Destroyer"
+		},
+		"4272895696": {
+			"name_en-us": "Izumo",
+			"name_zh-cn": "出云",
+			"nation": "japan",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"4273911792": {
+			"name_en-us": "Des Moines",
+			"name_zh-cn": "得梅因",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Cruiser"
+		},
+		"4274927600": {
+			"name_en-us": "Clemson",
+			"name_zh-cn": "克莱姆森",
+			"nation": "usa",
+			"tier": 4,
+			"type": "Destroyer"
+		},
+		"4276008656": {
+			"name_en-us": "Tone",
+			"name_zh-cn": "利根",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4276041424": {
+			"name_en-us": "Yamato",
+			"name_zh-cn": "大和",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"4276041712": {
+			"name_en-us": "Iowa",
+			"name_zh-cn": "依阿华",
+			"nation": "usa",
+			"tier": 9,
+			"type": "Battleship"
+		},
+		"4277024464": {
+			"name_en-us": "Fūjin",
+			"name_zh-cn": "风神",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4277090288": {
+			"name_en-us": "Montana",
+			"name_zh-cn": "蒙大拿",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Battleship"
+		},
+		"4279154384": {
+			"name_en-us": "Tenryū",
+			"name_zh-cn": "天龙",
+			"nation": "japan",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"4280170192": {
+			"name_en-us": "Tachibana L",
+			"name_zh-cn": "橘 Lima",
+			"nation": "japan",
+			"tier": 2,
+			"type": "Destroyer"
+		},
+		"4280170480": {
+			"name_en-us": "Nicholas",
+			"name_zh-cn": "尼古拉斯",
+			"nation": "usa",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4281219056": {
+			"name_en-us": "Gearing",
+			"name_zh-cn": "基林",
+			"nation": "usa",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4281251536": {
+			"name_en-us": "Kuma",
+			"name_zh-cn": "球磨",
+			"nation": "japan",
+			"tier": 4,
+			"type": "Cruiser"
+		},
+		"4281284304": {
+			"name_en-us": "Amagi",
+			"name_zh-cn": "天城",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"4281284592": {
+			"name_en-us": "Arkansas B",
+			"name_zh-cn": "阿肯色 B",
+			"nation": "usa",
+			"tier": 4,
+			"type": "Battleship"
+		},
+		"4282267344": {
+			"name_en-us": "Shimakaze",
+			"name_zh-cn": "岛风",
+			"nation": "japan",
+			"tier": 10,
+			"type": "Destroyer"
+		},
+		"4282300112": {
+			"name_en-us": "Ibuki",
+			"name_zh-cn": "伊吹",
+			"nation": "japan",
+			"tier": 9,
+			"type": "Cruiser"
+		},
+		"4282333168": {
+			"name_en-us": "N. Carolina",
+			"name_zh-cn": "北卡罗来纳",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"4283381456": {
+			"name_en-us": "Mikasa",
+			"name_zh-cn": "三笠",
+			"nation": "japan",
+			"tier": 2,
+			"type": "Battleship"
+		},
+		"4284397008": {
+			"name_en-us": "Diana L",
+			"name_zh-cn": "狄安娜 L",
+			"nation": "ussr",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"4284430032": {
+			"name_en-us": "Nagato",
+			"name_zh-cn": "长门",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"4285445840": {
+			"name_en-us": "Mogami",
+			"name_zh-cn": "最上",
+			"nation": "japan",
+			"tier": 8,
+			"type": "Cruiser"
+		},
+		"4286461936": {
+			"name_en-us": "Benson",
+			"name_zh-cn": "本森",
+			"nation": "usa",
+			"tier": 8,
+			"type": "Destroyer"
+		},
+		"4286494416": {
+			"name_en-us": "Myōkō",
+			"name_zh-cn": "妙高",
+			"nation": "japan",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4286527184": {
+			"name_en-us": "Ishizuchi",
+			"name_zh-cn": "石锤",
+			"nation": "japan",
+			"tier": 4,
+			"type": "Battleship"
+		},
+		"4286527472": {
+			"name_en-us": "Colorado",
+			"name_zh-cn": "科罗拉多",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Battleship"
+		},
+		"4287542992": {
+			"name_en-us": "Aoba",
+			"name_zh-cn": "青叶",
+			"nation": "japan",
+			"tier": 6,
+			"type": "Cruiser"
+		},
+		"4287575760": {
+			"name_en-us": "Kongō",
+			"name_zh-cn": "金刚",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"4288559088": {
+			"name_en-us": "Mahan",
+			"name_zh-cn": "马汉",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Destroyer"
+		},
+		"4288591856": {
+			"name_en-us": "Atlanta",
+			"name_zh-cn": "亚特兰大",
+			"nation": "usa",
+			"tier": 7,
+			"type": "Cruiser"
+		},
+		"4288624336": {
+			"name_en-us": "Fusō",
+			"name_zh-cn": "扶桑",
+			"nation": "japan",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"4288624624": {
+			"name_en-us": "New York",
+			"name_zh-cn": "纽约",
+			"nation": "usa",
+			"tier": 5,
+			"type": "Battleship"
+		},
+		"4289607664": {
+			"name_en-us": "Farragut",
+			"name_zh-cn": "法拉格特",
+			"nation": "usa",
+			"tier": 6,
+			"type": "Destroyer"
+		},
+		"4289640144": {
+			"name_en-us": "Furutaka",
+			"name_zh-cn": "古鹰",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4289640432": {
+			"name_en-us": "Omaha",
+			"name_zh-cn": "奥马哈",
+			"nation": "usa",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4290655952": {
+			"name_en-us": "Minekaze",
+			"name_zh-cn": "峰风",
+			"nation": "japan",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4290688720": {
+			"name_en-us": "Yūbari",
+			"name_zh-cn": "夕张",
+			"nation": "japan",
+			"tier": 4,
+			"type": "Cruiser"
+		},
+		"4290689008": {
+			"name_en-us": "St. Louis",
+			"name_zh-cn": "圣路易斯",
+			"nation": "usa",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"4290721776": {
+			"name_en-us": "Wyoming",
+			"name_zh-cn": "怀俄明",
+			"nation": "usa",
+			"tier": 4,
+			"type": "Battleship"
+		},
+		"4291704528": {
+			"name_en-us": "Isokaze",
+			"name_zh-cn": "矶风",
+			"nation": "japan",
+			"tier": 4,
+			"type": "Destroyer"
+		},
+		"4291737040": {
+			"name_en-us": "Murmansk",
+			"name_zh-cn": "摩尔曼斯克",
+			"nation": "ussr",
+			"tier": 5,
+			"type": "Cruiser"
+		},
+		"4291737584": {
+			"name_en-us": "Albany",
+			"name_zh-cn": "奥尔巴尼",
+			"nation": "usa",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"4291770064": {
+			"name_en-us": "Myōgi",
+			"name_zh-cn": "妙义",
+			"nation": "japan",
+			"tier": 4,
+			"type": "Battleship"
+		},
+		"4292753104": {
+			"name_en-us": "Umikaze",
+			"name_zh-cn": "海风",
+			"nation": "japan",
+			"tier": 2,
+			"type": "Destroyer"
+		},
+		"4292753392": {
+			"name_en-us": "Sampson",
+			"name_zh-cn": "桑普森",
+			"nation": "usa",
+			"tier": 2,
+			"type": "Destroyer"
+		},
+		"4292785616": {
+			"name_en-us": "Diana",
+			"name_zh-cn": "狄安娜",
+			"nation": "ussr",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"4292785968": {
+			"name_en-us": "Dresden",
+			"name_zh-cn": "德累斯顿",
+			"nation": "germany",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"4292786160": {
+			"name_en-us": "Chester",
+			"name_zh-cn": "切斯特",
+			"nation": "usa",
+			"tier": 2,
+			"type": "Cruiser"
+		},
+		"4292818736": {
+			"name_en-us": "Tirpitz",
+			"name_zh-cn": "提尔皮茨",
+			"nation": "germany",
+			"tier": 8,
+			"type": "Battleship"
+		},
+		"4292818896": {
+			"name_en-us": "Warspite",
+			"name_zh-cn": "厌战",
+			"nation": "uk",
+			"tier": 6,
+			"type": "Battleship"
+		},
+		"4293801424": {
+			"name_en-us": "Gremyashchy",
+			"name_zh-cn": "轰鸣",
+			"nation": "ussr",
+			"tier": 5,
+			"type": "Destroyer"
+		},
+		"4293801680": {
+			"name_en-us": "Tachibana",
+			"name_zh-cn": "橘",
+			"nation": "japan",
+			"tier": 2,
+			"type": "Destroyer"
+		},
+		"4293834192": {
+			"name_en-us": "Aurora",
+			"name_zh-cn": "阿芙乐尔",
+			"nation": "ussr",
+			"tier": 3,
+			"type": "Cruiser"
+		},
+		"4293834544": {
+			"name_en-us": "Hermelin",
+			"name_zh-cn": "鼬",
+			"nation": "germany",
+			"tier": 1,
+			"type": "Cruiser"
+		},
+		"4293834736": {
+			"name_en-us": "Erie",
+			"name_zh-cn": "伊利",
+			"nation": "usa",
+			"tier": 1,
+			"type": "Cruiser"
+		},
+		"4293866960": {
+			"name_en-us": "Nikolai I",
+			"name_zh-cn": "沙皇尼古拉一世",
+			"nation": "ussr",
+			"tier": 4,
+			"type": "Battleship"
+		},
+		"4293867216": {
+			"name_en-us": "Kawachi",
+			"name_zh-cn": "河内",
+			"nation": "japan",
+			"tier": 3,
+			"type": "Battleship"
+		},
+		"4293867504": {
+			"name_en-us": "S. Carolina",
+			"name_zh-cn": "南卡罗来纳",
+			"nation": "usa",
+			"tier": 3,
+			"type": "Battleship"
+		}
+	}
+}

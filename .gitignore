@@ -1,0 +1,65 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.pidb
+*.pdb
+*.cache
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+*.qub
+[Dd]ebug/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Ee]xe/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+
+## VS Code
+.vs/
+.vscode/
+*.vshost.exe
+*.vshost.exe.config
+*.vshost.exe.manifest
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## NuGet
+**/packages/*
+!**/packages/build/
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+## Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Logs
+*.log
+Logs/
+/Log/
+
+## macOS
+.DS_Store
+
+## Publish output
+publish/
+**/PublishProfiles/*.pubxml.user
+
+## Secret
+/docs/footstep/

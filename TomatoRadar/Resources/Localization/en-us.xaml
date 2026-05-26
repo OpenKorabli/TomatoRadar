@@ -1,0 +1,416 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="WindowTitleConfig">Config</system:String>
+    <system:String x:Key="WindowTitleTomatoRadar">Tomato Radar</system:String>
+
+    <system:String x:Key="DataGridHeaderPlayer">Player</system:String>
+    <system:String x:Key="DataGridHeaderStatisticsAccount">Account</system:String>
+    <system:String x:Key="DataGridHeaderStatisticsWeighted">Weighted</system:String>
+    <system:String x:Key="DataGridHeaderStatisticsShip">Ship</system:String>
+    <system:String x:Key="DataGridHeaderTag">Tag</system:String>
+    <system:String x:Key="DataGridHeaderServer">Server</system:String>
+    <system:String x:Key="DataGridHeaderID">ID</system:String>
+    <system:String x:Key="DataGridHeaderName">Name</system:String>
+    <system:String x:Key="DataGridHeaderTime">Time</system:String>
+    <system:String x:Key="DataGridHeaderMessage">Message</system:String>
+    <system:String x:Key="DataGridToolTipAccount">Account</system:String>
+    <system:String x:Key="DataGridToolTipWeighted">Weighted</system:String>
+    <system:String x:Key="DataGridToolTipShip">Ship</system:String>
+    <system:String x:Key="DataGridToolTipBattles">Battles</system:String>
+    <system:String x:Key="DataGridToolTipWinrate">Winrate</system:String>
+    <system:String x:Key="DataGridToolTipAvgExp">Avg. Exp.</system:String>
+    <system:String x:Key="DataGridToolTipAvgDmg">Avg. Dmg.</system:String>
+    <system:String x:Key="DataGridToolTipSolo">Solo</system:String>
+    <system:String x:Key="DataGridToolTipDiv2">Div 2</system:String>
+    <system:String x:Key="DataGridToolTipDiv3">Div 3</system:String>
+    
+    <system:String x:Key="BtnSave">Save</system:String>
+    <system:String x:Key="BtnCancel">Cancel</system:String>
+    <system:String x:Key="BtnDefault">Default</system:String>
+    <system:String x:Key="BtnInsert">Insert</system:String>
+    <system:String x:Key="BtnBrowse">Browse</system:String>
+    <TextBlock x:Key="BtnCheckForUpdates" TextAlignment="Center">Check<LineBreak/>for Updates</TextBlock>
+    <system:String x:Key="BtnRefresh">Refresh</system:String>
+    <system:String x:Key="BtnOpen">Open Replay</system:String>
+    <system:String x:Key="BtnConfig">Config</system:String>
+    <system:String x:Key="BtnScreenshot">Screenshot</system:String>
+
+    <system:String x:Key="ComboBoxItemLanguageAuto">Auto</system:String>
+    <system:String x:Key="ComboBoxItemSortByShipTypeAndShipTierAndWinrateDescending">Type/Tier/Winrate ↓</system:String>
+    <system:String x:Key="ComboBoxItemSortByShipTypeAndWinrateDescending">Type/Winrate ↓</system:String>
+    <system:String x:Key="ComboBoxItemSortByShipTierAndShipTypeAndWinrateDescending">Tier/Type/Winrate ↓</system:String>
+    <system:String x:Key="ComboBoxItemSortByShipTierAndWinrateDescending">Tier/Winrate ↓</system:String>
+    <system:String x:Key="ComboBoxItemSortByWinrateDescending">Winrate ↓</system:String>
+    <system:String x:Key="ComboBoxItemSortByWinrateAscending">Winrate ↑</system:String>
+    <system:String x:Key="ComboBoxItemSortByBattlesDescending">Battles ↓</system:String>
+    <system:String x:Key="ComboBoxItemSortByBattlesAscending">Battles ↑</system:String>
+    <system:String x:Key="ComboBoxItemMirroredDisplayDisabled">Normal</system:String>
+    <system:String x:Key="ComboBoxItemMirroredDisplayEnabled">Mirrored</system:String>
+    <system:String x:Key="ComboBoxItemPlayerNamesVisible">Visible</system:String>
+    <system:String x:Key="ComboBoxItemPlayerNamesHidden">Hidden</system:String>
+    <system:String x:Key="ComboBoxItemChartTypeWinrateAscending">Line: Winrate ↑</system:String>
+    <system:String x:Key="ComboBoxItemChartTypeWinrateDescending">Line: Winrate ↓</system:String>
+    <system:String x:Key="ComboBoxItemChartTypeShipTypeAndWinrateDescending">Bar: Type/Winrate ↓</system:String>
+    <system:String x:Key="ComboBoxItemChartTypeShipTierAndWinrateDescending">Bar: Tier/Winrate ↓</system:String>
+    <system:String x:Key="ComboBoxItemChartTypeShipTypeAndShipTierAndWinrateDescending">Bar: Type/Tier/Winrate ↓</system:String>
+    <system:String x:Key="ComboBoxItemChartTypeShipTierAndShipTypeAndWinrateDescending">Bar: Tier/Type/Winrate ↓</system:String>
+    <system:String x:Key="ComboBoxItemServerAuto">Auto</system:String>
+    <system:String x:Key="ComboBoxItemServerRU">RU</system:String>
+    <system:String x:Key="ComboBoxItemServerEU">EU</system:String>
+    <system:String x:Key="ComboBoxItemServerNA">NA</system:String>
+    <system:String x:Key="ComboBoxItemServerASIA">ASIA</system:String>
+    <system:String x:Key="ComboBoxItemServerCN">CN</system:String>
+    <system:String x:Key="ComboBoxItemAccountWinrate">Account</system:String>
+    <system:String x:Key="ComboBoxItemWeightedWinrate">Weighted</system:String>
+    <system:String x:Key="ComboBoxItemNoColor">No Color</system:String>
+    <system:String x:Key="ComboBoxItem4Colors">4 Colors</system:String>
+    <system:String x:Key="ComboBoxItem8Colors">8 Colors</system:String>
+    <system:String x:Key="ComboBoxItemRainbow">Rainbow</system:String>
+    <system:String x:Key="ComboBoxItemVisible">Visible</system:String>
+    <system:String x:Key="ComboBoxItemFaded">Faded</system:String>
+    <system:String x:Key="ComboBoxItemCollapsed">Collapsed</system:String>
+    <system:String x:Key="ComboBoxItemAPITypeVortex">Vortex API</system:String>
+    <system:String x:Key="ComboBoxItemAPITypeWGPublic">WG Public API</system:String>
+    <system:String x:Key="ComboBoxItemAPITypeWGPublicWithYuyukoProxy">WG Public API with Yuyuko Proxy</system:String>
+
+    <system:String x:Key="ComboBoxItemAPITypeLestaPublic">Lesta Public API</system:String>
+
+    <system:String x:Key="LabelAllies">Allies</system:String>
+    <system:String x:Key="LabelEnemies">Enemies</system:String>
+    <system:String x:Key="LabelAverageData">Avg.</system:String>
+    <system:String x:Key="LabelAverageAccountWinrate">Account</system:String>
+    <system:String x:Key="LabelAverageWeightedWinrate">Weighted</system:String>
+    <system:String x:Key="LabelAverageBattleCount">Battles</system:String>
+    <system:String x:Key="LabelGamePathIsSet">Game Path is Set</system:String>
+    <system:String x:Key="LabelGamePathIsNotSet">Game Path is Not Set</system:String>
+    <system:String x:Key="LabelChartType">Chart Type:</system:String>
+    <system:String x:Key="LabelPlayerListSortBy">Player List Sort By:</system:String>
+    <system:String x:Key="LabelDisplayStyle">Display Style:</system:String>
+    <system:String x:Key="LabelPlayerNames">Player Names:</system:String>
+    <system:String x:Key="LabelServer">Server</system:String>
+    <system:String x:Key="LabelGamePath">Game Path</system:String>
+    <system:String x:Key="LabelShipNameLanguage">Ship Name Language</system:String>
+    <TextBlock x:Key="LabelMaximumRetryAttemptsOnError" TextAlignment="Right">Maximum Retry<LineBreak/>Attempts on Error</TextBlock>
+    <system:String x:Key="LabelSoftwareVersion">Application Version</system:String>
+    <system:String x:Key="LabelShipListVersion">Ship List Version</system:String>
+    <system:String x:Key="LabelWinrateRangeSettings">Winrate Range Settings</system:String>
+    <system:String x:Key="LabelWinrateType">Winrate Type Used</system:String>
+    <system:String x:Key="LabelColorStyle">Color Style</system:String>
+    <system:String x:Key="LabelIcon">Icon</system:String>
+    <system:String x:Key="LabelTomatoIcon">Tomato</system:String>
+    <system:String x:Key="LabelUnicumIcon">Unicum</system:String>
+    <system:String x:Key="LabelHiddenIcon">Hidden / Unavailable</system:String>
+    <system:String x:Key="LabelWatchIcon">on Watch List</system:String>
+    <system:String x:Key="LabelColumnVisibility">Column Visibility</system:String>
+    <system:String x:Key="LabelColumnVisibilityAccount">Account</system:String>
+    <system:String x:Key="LabelColumnVisibilityWeighted">Weighted</system:String>
+    <system:String x:Key="LabelColumnVisibilityShip">Ship</system:String>
+    <system:String x:Key="LabelColumnVisibilityAccountAvgExp">Account Avg. Exp.</system:String>
+    <system:String x:Key="LabelColumnVisibilityShipAvgExp">Ship Avg. Exp.</system:String>
+    <system:String x:Key="LabelColumnVisibilityShipAvgDmg">Ship Avg. Dmg.</system:String>
+    <system:String x:Key="LabelColumnVisibilityTag">Tag</system:String>
+    <system:String x:Key="LabelFontSize">Font Size</system:String>
+    <system:String x:Key="LabelFontSizePlayerColumn">Player Column</system:String>
+    <system:String x:Key="LabelFontSizeStatisticsColumn">Statistics Column</system:String>
+    <system:String x:Key="LabelFontSizeDetailedStatistics">Detailed Statistics</system:String>
+    <system:String x:Key="LabelFontSizeOutputText">Output Text</system:String>
+    <system:String x:Key="LabelOutputTextTemplateGeneralStatistics">Output Text Template (General Statistics)</system:String>
+    <system:String x:Key="LabelOutputTextTemplateParticularPlayerStatistics">Output Text Template (Particular Player Statistics)</system:String>
+    <system:String x:Key="LabelInsertTemplateTag">Insert Tag</system:String>
+    <system:String x:Key="LabelTemplateTag">Tag:</system:String>
+    <system:String x:Key="LabelTagDefinition">Tag Definition</system:String>
+    <system:String x:Key="LabelTomato">Tomato =</system:String>
+    <system:String x:Key="LabelUnicum">Unicum =</system:String>
+    <system:String x:Key="LabelWinrate">Winrate</system:String>
+    <system:String x:Key="LabelBattles">Battles</system:String>
+    <system:String x:Key="LabelAnd">And</system:String>
+    <system:String x:Key="LabelBelow">Below</system:String>
+    <system:String x:Key="LabelAbove">Above</system:String>
+    <system:String x:Key="LabelDelimiter">Delimiter between Names (Default: White Space)</system:String>
+    <system:String x:Key="LabelWeightedWinrate">Weighted Winrate</system:String>
+    <system:String xml:space="preserve" x:Key="LabelWeightedWinrateStep1">Step 1: </system:String>
+    <system:String x:Key="LabelWeightedWinrateStep1Line1">Calculate Weighted Account Winrate by</system:String>
+    <system:String x:Key="LabelWeightedWinrateStep1Line2">Solo, Div2 and Div3 Account Winrate.</system:String>
+    <system:String x:Key="LabelWeightedWinrateWeightMultiplier">Weight Multiplier</system:String>
+    <system:String x:Key="LabelWeightedWinrateAccountSoloWeightMultiplier">Solo</system:String>
+    <system:String x:Key="LabelWeightedWinrateAccountDiv2WeightMultiplier">Div 2</system:String>
+    <system:String x:Key="LabelWeightedWinrateAccountDiv3WeightMultiplier">Div 3</system:String>
+    <system:String x:Key="LabelWeightedWinratePieChartSolo">Solo</system:String>
+    <system:String x:Key="LabelWeightedWinratePieChartDiv2">Div 2</system:String>
+    <system:String x:Key="LabelWeightedWinratePieChartDiv3">Div 3</system:String>
+    <system:String x:Key="LabelWeightedWinratePieChartShip">Ship</system:String>
+    <system:String xml:space="preserve" x:Key="LabelWeightedWinrateStep2">Step 2: </system:String>
+    <system:String x:Key="LabelWeightedWinrateStep2Line1">Calculate Weighted Winrate by</system:String>
+    <system:String x:Key="LabelWeightedWinrateStep2Line2">Weighted Account Winrate and Ship Winrate.</system:String>
+    <system:String x:Key="LabelWeightedWinrateShipMaxWeight">Max Weight of Ship Winrate</system:String>
+    <system:String x:Key="LabelWeightedWinrateShipBattlesAtMaxWeight">Ship Battles at Max Weight</system:String>
+    <system:String x:Key="LabelWeightedWinratePieChartDescriptionLine1">Contribution of each Battle Type to Weighted Winrate</system:String>
+    <system:String x:Key="LabelWeightedWinratePieChartDescriptionLine2">(When Ship Battles ≥ Ship Battles at Max Weight)</system:String>
+    <system:String x:Key="LabelAboutLine1">This application is completely free and open-source under the MIT license.</system:String>
+    <system:String xml:space="preserve" x:Key="LabelAboutLine2Part1">Web: </system:String>
+    <system:String xml:space="preserve" x:Key="LabelAboutLine2Part2">  QQ Group: 1012624096 / 272868560</system:String>
+    <system:String x:Key="LabelWatchList">Watch List</system:String>
+    <system:String x:Key="LabelPositive">Positive</system:String>
+    <system:String x:Key="LabelNegative">Negative</system:String>
+    <system:String x:Key="LabelCheater">Cheater / Bot</system:String>
+    <system:String x:Key="LabelAPIType">API Type</system:String>
+    <system:String x:Key="LabelAPITypeDefault">EU / NA / ASIA</system:String>
+    <system:String x:Key="LabelAPITypeRU">RU</system:String>
+    <system:String x:Key="LabelAPITypeCN">CN</system:String>
+
+    <system:String x:Key="TabHeaderGeneral">General</system:String>
+    <system:String x:Key="TabHeaderAppearance">Appearance</system:String>
+    <system:String x:Key="TabHeaderWinrateAndTag">Winrate &amp; Tag</system:String>
+    <system:String x:Key="TabHeaderTextOutput">Text Output</system:String>
+    <system:String x:Key="TabHeaderTextOutputGeneralStatistics">(General Statistics)</system:String>
+    <system:String x:Key="TabHeaderTextOutputParticularPlayerStatistics">(Particular Player Statistics)</system:String>
+    <system:String x:Key="TabHeaderWatchList">Watch List</system:String>
+    <system:String x:Key="TabHeaderAdvanced">Advanced</system:String>
+
+    <system:String x:Key="ToolTipResetToDefault">Reset to default</system:String>
+    <ToolTip x:Key="ToolTipGamePath">
+        <TextBlock>
+            It is recommended to use the drop-down button on the right to select an auto-detected game path.
+            <LineBreak/>
+            Please select the game folder (Where the WorldOfWarships.exe exists) instead of the replay folder if you select it manually.
+        </TextBlock>
+    </ToolTip>
+
+    <ToolTip x:Key="ToolTipMaximumRetryAttemptsOnError">
+        <TextBlock>
+            If an error occurs when retrieving data, the application will retry up to the specified number of times.
+            <LineBreak/>
+            Set to 0 to disable retries. 
+        </TextBlock>
+    </ToolTip>
+
+    <ToolTip x:Key="ToolTipWinrateTypeUsed">
+        <TextBlock>
+            Selected winrate type will be displayed in the chart and be used for tag assignment.
+        </TextBlock>
+    </ToolTip>
+
+    <ToolTip x:Key="ToolTipWeightedWinrate">
+        <TextBlock>
+            Weighted Winrate is an assessment of the potential performance of a player playing a particular ship, after taking into account the factor of playing in a division.
+        </TextBlock>
+    </ToolTip>
+
+    <ToolTip x:Key="ToolTipWeightedWinrateStep1">
+        <TextBlock>
+            Account Solo Weight = Account Solo Battles * Solo Weight Multiplier
+            <LineBreak/>
+            Account Div2 Weight = Account Div2 Battles * Div2 Weight Multiplier
+            <LineBreak/>
+            Account Div3 Weight = Account Div3 Battles * Div3 Weight Multiplier
+            <LineBreak/>
+            Account Weighted Winrate = (Account Solo Winrate * Account Solo Weight + Account Div2 Winrate * Account Div2 Weight + Account Div3 Winrate * Account Div3 Weight) / (Account Solo Weight + Account Div2 Weight + Account Div3 Weight)
+        </TextBlock>
+    </ToolTip>
+
+    <ToolTip x:Key="ToolTipWeightedWinrateWeightMultiplier">
+        <TextBlock>
+            The Weight Multipliers adjust the weight of each division type, together with battles of each division type.
+            <LineBreak/>
+            If all multipliers are equal, the Account Weighted Winrate will be equal to the Account Winrate.
+        </TextBlock>
+    </ToolTip>
+
+    <ToolTip x:Key="ToolTipWeightedWinrateStep2">
+        <TextBlock>
+            Ship Weight = Max Weight of Ship Winrate / Ship Battles&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(Ship Battles ＜ Ship Battles at Max Weight)
+            <LineBreak/>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Max Weight of Ship Winrate&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(Ship Battles ≥ Ship Battles at Max Weight)
+            <LineBreak/>
+            Account Weight = 1 - Ship Weight
+            <LineBreak/>
+            Weighted Winrate = Account Weighted Winrate * Account Weight + Ship Winrate * Ship Weight
+        </TextBlock>
+    </ToolTip>
+
+    <ToolTip x:Key="ToolTipColorStyle">
+        <TextBlock>
+            No Color:
+            <LineBreak/>
+            <Run Foreground="#000000" Background="#FFFFFF">Any Winrate</Run>
+            <LineBreak/>
+            <LineBreak/>
+            4 Colors:
+            <LineBreak/>
+            <Run Foreground="#FFFFFF" Background="#FE0E00">≤47%</Run>&#160;
+            <Run Foreground="#FFFFFF" Background="#FFC71F">47%-52%</Run>&#160;
+            <Run Foreground="#FFFFFF" Background="#318000">52%-60%</Run>&#160;
+            <Run Foreground="#FFFFFF" Background="#D042F3">＞60%</Run>
+            <LineBreak/>
+            <LineBreak/>
+            8 Colors (WoWS Numbers Definition):
+            <LineBreak/>
+            <Run Foreground="#FFFFFF" Background="#FE0E00">≤47%</Run>&#160;
+            <Run Foreground="#FFFFFF" Background="#FE7903">47%-49%</Run>&#160;
+            <Run Foreground="#FFFFFF" Background="#FFC71F">49%-52%</Run>&#160;
+            <Run Foreground="#FFFFFF" Background="#44B300">52%-54%</Run>&#160;
+            <Run Foreground="#FFFFFF" Background="#318000">54%-56%</Run>&#160;
+            <Run Foreground="#FFFFFF" Background="#02C9B3">56%-60%</Run>&#160;
+            <Run Foreground="#FFFFFF" Background="#D042F3">60%-65%</Run>&#160;
+            <Run Foreground="#FFFFFF" Background="#A00DC5">＞65%</Run>
+            <LineBreak/>
+            <LineBreak/>
+            Rainbow (Infinity Colors):
+            <LineBreak/>
+            Continuously changes from <Run Foreground="#FFFFFF" Background="#FE0E00">≤47%</Run> to <Run Foreground="#FFFFFF" Background="#CC00FF">＞65%</Run>
+        </TextBlock>
+    </ToolTip>
+
+    <ToolTip x:Key="ToolTipGeneralStatistics">
+        <TextBlock>
+            This template controls the text generated in the output textbox (bottom-right corner) when starting a battle or opening a replay file.
+        </TextBlock>
+    </ToolTip>
+
+    <ToolTip x:Key="ToolTipParticularPlayerStatistics">
+        <TextBlock>
+            This template controls the text you will get when copying the statistics of a particular player (right click on a player -> Copy Player Statistics).
+        </TextBlock>
+    </ToolTip>
+
+    <ToolTip x:Key="ToolTipWatchList">
+        <TextBlock>
+            These are all players on your watch list (right click on a player -> Add to Watch List).
+            <LineBreak/>
+            Right click on a player to check his statistics on websites or remove him from the watch list.
+            <LineBreak/>
+            The watch list is saved in the WatchList.json file in the application folder.
+        </TextBlock>
+    </ToolTip>
+
+    <ToolTip x:Key="ToolTipAPIType">
+        <TextBlock>
+            Vortex API: All new features are supported, all servers are supported.
+            <LineBreak/>
+            WG Public API: Some new features may not be supported. RU &amp; CN servers are not supported. The selection will be ignored and Vortex API will be used on those servers. 
+            <LineBreak/>
+            WG Public API with Yuyuko Proxy: Same as WG Public API, but may be more stable under certain network environments in China. 
+            <LineBreak/>
+            <LineBreak/>
+            It is recommended to select other options only if you keep getting errors with the Vortex API.
+        </TextBlock>
+    </ToolTip>
+
+    <ToolTip x:Key="ToolTipEnableYuyukoAPIPush">
+        <TextBlock>
+            Push battle data to other devices by Yuyuko API for easier viewing. (The client is under development)
+            <LineBreak/>
+            If selected, the essential data of each battle (the list of player names, UIDs, clans, and ship IDs etc.) will be sent to the Yuyuko server.
+            <LineBreak/>
+            No personal information is collected. 
+        </TextBlock>
+    </ToolTip>
+
+    <ToolTip x:Key="ToolTipDebugMode">
+        <TextBlock>
+            Generate more detailed logs for debugging.
+        </TextBlock>
+    </ToolTip>
+
+    <system:String x:Key="ListItemAllyAvgAccountWinrate">Ally Avg. Account Winrate</system:String>
+    <system:String x:Key="ListItemAllyAvgWeightedWinrate">Ally Avg. Weighted Winrate</system:String>
+    <system:String x:Key="ListItemAllyAvgBattles">Ally Avg. Battles</system:String>
+    <system:String x:Key="ListItemEnemyAvgAccountWinrate">Enemy Avg. Account Winrate</system:String>
+    <system:String x:Key="ListItemEnemyAvgWeightedWinrate">Enemy Avg. Weighted Winrate</system:String>
+    <system:String x:Key="ListItemEnemyAvgBattles">Enemy Avg. Battles</system:String>
+    <system:String x:Key="ListItemAllyTomatoList">Ally Tomato List</system:String>
+    <system:String x:Key="ListItemAllyUnicumList">Ally Unicum List</system:String>
+    <system:String x:Key="ListItemAllyHiddenList">Ally Hidden List</system:String>
+    <system:String x:Key="ListItemAllyPositiveWatchList">Ally Positive Watch List</system:String>
+    <system:String x:Key="ListItemAllyNegativeWatchList">Ally Negative Watch List</system:String>
+    <system:String x:Key="ListItemAllyCheaterWatchList">Ally Cheater / Bot Watch List</system:String>
+    <system:String x:Key="ListItemAllyTomatoCount">Ally Tomato Count</system:String>
+    <system:String x:Key="ListItemAllyUnicumCount">Ally Unicum Count</system:String>
+    <system:String x:Key="ListItemAllyHiddenCount">Ally Hidden Count</system:String>
+    <system:String x:Key="ListItemAllyPositiveWatchCount">Ally Positive Watch Count</system:String>
+    <system:String x:Key="ListItemAllyNegativeWatchCount">Ally Negative Watch Count</system:String>
+    <system:String x:Key="ListItemAllyCheaterWatchCount">Ally Cheater / Bot Watch Count</system:String>
+    <system:String x:Key="ListItemEnemyTomatoList">Enemy Tomato List</system:String>
+    <system:String x:Key="ListItemEnemyUnicumList">Enemy Unicum List</system:String>
+    <system:String x:Key="ListItemEnemyHiddenList">Enemy Hidden List</system:String>
+    <system:String x:Key="ListItemEnemyPositiveWatchList">Enemy Positive Watch List</system:String>
+    <system:String x:Key="ListItemEnemyNegativeWatchList">Enemy Negative Watch List</system:String>
+    <system:String x:Key="ListItemEnemyCheaterWatchList">Enemy Cheater / Bot Watch List</system:String>
+    <system:String x:Key="ListItemEnemyTomatoCount">Enemy Tomato Count</system:String>
+    <system:String x:Key="ListItemEnemyUnicumCount">Enemy Unicum Count</system:String>
+    <system:String x:Key="ListItemEnemyHiddenCount">Enemy Hidden Count</system:String>
+    <system:String x:Key="ListItemEnemyPositiveWatchCount">Enemy Positive Watch Count</system:String>
+    <system:String x:Key="ListItemEnemyNegativeWatchCount">Enemy Negative Watch Count</system:String>
+    <system:String x:Key="ListItemEnemyCheaterWatchCount">Enemy Cheater / Bot Watch Count</system:String>
+    <system:String x:Key="ListItemTomatoWinrateThreshold">Tomato Winrate Threshold</system:String>
+    <system:String x:Key="ListItemUnicumWinrateThreshold">Unicum Winrate Threshold</system:String>
+
+    <system:String x:Key="ListItemPlayerName">Player Name</system:String>
+    <system:String x:Key="ListItemClanTag">Clan Tag</system:String>
+    <system:String x:Key="ListItemShipName">Ship Name</system:String>
+    <system:String x:Key="ListItemAccountBattles">Account Battles</system:String>
+    <system:String x:Key="ListItemShipBattles">Ship Battles</system:String>
+    <system:String x:Key="ListItemAccountWinrate">Account Winrate</system:String>
+    <system:String x:Key="ListItemWeightedWinrate">Weighted Winrate</system:String>
+    <system:String x:Key="ListItemShipWinrate">Ship Winrate</system:String>
+    <system:String x:Key="ListItemShipAvgDmg">Ship Avg. Damage</system:String>
+
+    <system:String x:Key="ChkBoxSecondaryServerEnabled">Enemies from Different Server (for Cross-Server CW Only)</system:String>
+    <system:String x:Key="ChkBoxCheckForUpdatesOnStartup">Check for Updates on Startup</system:String>
+    <system:String x:Key="ChkBoxIncludePlayerNamesOnlyIfDuplicateShipExists">Include Player Names only if Duplicate Ships Exist</system:String>
+    <system:String x:Key="ChkBoxExcludeYourself">Exclude Yourself</system:String>
+    <system:String x:Key="ChkBoxUnlockOutputTextbox">Unlock Output Textbox</system:String>
+    <system:String x:Key="ChkBoxAutoCopyOutputTextToClipboard">Auto Copy Output Text to Clipboard</system:String>
+    <system:String x:Key="ChkBoxUseOldAPI">Use Old API</system:String>
+    <system:String x:Key="ChkBoxEnableYuyukoAPIPush">Enable Yuyuko API Push Service (Beta)</system:String>
+    <system:String x:Key="ChkBoxEnableDebugMode">Enable Debug Mode</system:String>
+
+    <system:String x:Key="NotificationMessageNewPlayersRevealed">{0} new players detected</system:String>
+    <system:String x:Key="NotificationMessageRetrivingData">Retrieving data from server, please wait...</system:String>
+    <system:String x:Key="NotificationMessageDataRetrieved">Data retrieved successfully.</system:String>
+    <system:String x:Key="NotificationMessageFileError">The file opened is not a valid tempArenaInfo.json or .wowsreplay file.</system:String>
+    <system:String x:Key="NotificationMessageServerAutoDetectionFailed">The game server auto detection has failed. Please select the game server manually in the config window. </system:String>
+    <system:String x:Key="NotificationMessageConnectionError">The connection to the Wargaming API has failed. Please check your network connection or try again later.</system:String>
+    <system:String x:Key="NotificationMessageJsonError">The format of the retrieved data is incorrect. Please check your network connection or try again later.</system:String>
+    <system:String x:Key="NotificationMessageOtherError">An error has occurred. Read log files under the /Log/ folder for more information.</system:String>
+    <system:String xml:space="preserve" x:Key="NotificationMessageRetrying">Retrying. Attempt </system:String>
+    <system:String x:Key="NotificationMessageAttempt">.</system:String>
+    <system:String x:Key="NotificationMessageMaximumAttemptsReached">Maximum attempts reached. Aborting.</system:String>
+    <system:String xml:space="preserve" x:Key="NotificationMessageScreenshotIsSavedTo">Screenshot is saved to </system:String>
+    <system:String x:Key="NotificationMessagePeriod">.</system:String>
+    <system:String x:Key="NotificationMessageSoftwareUpdateDownloading">Downloading application update, please wait...</system:String>
+    <system:String x:Key="NotificationMessageShiplistUpdateDownloading">Downloading shiplist update, please wait...</system:String>
+    <system:String x:Key="NotificationMessageSoftwareUpdateComplete">Update complete. The application will now close. Run again to use the latest version.</system:String>
+    <system:String x:Key="NotificationMessageShiplistUpdateComplete">Shiplist update complete.</system:String>
+    <system:String x:Key="NotificationMessageUpdateConnectionError">The connection to the update server has failed. Please check your network connection or try again later.</system:String>
+    <system:String x:Key="NotificationMessageUpdateFileHashError">The file downloaded from the update server is corrupted. Please check your network connection or try again later.</system:String>
+
+    <system:String x:Key="MsgBoxError">Error</system:String>
+    <system:String x:Key="MsgBoxInputError">Input value is Incorrect.</system:String>
+    <system:String x:Key="MsgBoxGamePathErrorConfirmation">WorldOfWarships.exe is not detected in the selected folder. The game path setting is probably incorrect. (For example, you selected the \replay sub folder instead of the root folder of the game. ) Use it anyway? </system:String>
+    <system:String x:Key="MsgBoxConfirmation">Confirmation</system:String>
+    <system:String x:Key="MsgBoxOutputTextboxUnlockConfirmation">I promise I will NOT send any messages that violate the EULA and/or Game and Clan Rules for World of Warships on in-game public channels.</system:String>
+    <system:String x:Key="MsgBoxUpdate">Update</system:String>
+    <system:String x:Key="MsgBoxSoftwareUpdateFound">Application update found.</system:String>
+    <system:String x:Key="MsgBoxShiplistUpdateFound">Shiplist update found.</system:String>
+    <system:String x:Key="MsgBoxUpdatesNotFound">Application and ship list are up to date.</system:String>
+    <system:String xml:space="preserve" x:Key="MsgBoxCurrentVersion">Current version: </system:String>
+    <system:String xml:space="preserve" x:Key="MsgBoxLatestVersion">Latest version: </system:String>
+    <system:String x:Key="MsgBoxUpdateComfirm">Update?</system:String>
+    <system:String x:Key="MsgBoxSoftwareUpdateComplete">Update complete. The application will now close. Run again to use the latest version.</system:String>
+    <system:String x:Key="MsgBoxShiplistUpdateComplete">Shiplist update complete.</system:String>
+
+    <system:String x:Key="ContextMenuCopyPlayerStatistics">Copy Player Statistics</system:String>
+    <system:String x:Key="ContextMenuCheckOnWoWSOfficialSite">Check Details on the Official Site</system:String>
+    <system:String x:Key="ContextMenuCheckOnWoWSNumbers">Check Details on WoWS Numbers</system:String>
+    <system:String x:Key="ContextMenuCheckOnProships">Check Details on Proships.su</system:String>
+    <system:String x:Key="ContextMenuAddToWatchListPositive">Add to Watch List (Positive)</system:String>
+    <system:String x:Key="ContextMenuAddToWatchListNegative">Add to Watch List (Negative)</system:String>
+    <system:String x:Key="ContextMenuAddToWatchListCheater">Add to Watch List (Cheater / Bot)</system:String>
+    <system:String x:Key="ContextMenuRemoveFromWatchList">Remove from Watch List</system:String>
+
+    <system:String x:Key="StringNone">None</system:String>
+    <system:String x:Key="StringUnknownShip">Unknown Ship</system:String>
+
+</ResourceDictionary>
