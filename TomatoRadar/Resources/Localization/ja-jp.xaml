@@ -372,7 +372,7 @@
 
     <system:String x:Key="NotificationMessageCheckingForUpdates">アップデートを確認中…</system:String>
     <system:String x:Key="NotificationMessageWaitingForBattle">戦闘またはリプレイを待機中…</system:String>
-    <system:String x:Key="NotificationMessageNewPlayersRevealed">{0}人の新しいプレイヤーを検出</system:String>
+    <system:String x:Key="NotificationMessageNewPlayersRevealed">{0}人の新プレイヤー：{1}</system:String>
     <system:String x:Key="NotificationMessageRetrivingData">サーバーからデータを取得中です。お待ちください…</system:String>
     <system:String x:Key="NotificationMessageDataRetrieved">データが正常に取得されました。</system:String>
     <system:String x:Key="NotificationMessageFileError">開かれたファイルは有効なtempArenaInfo.jsonまたは.wowsreplayファイルではありません。</system:String>
@@ -391,6 +391,7 @@
     <system:String x:Key="NotificationMessageShiplistUpdateComplete">艦艇リストのアップデートが完了しました。</system:String>
     <system:String x:Key="NotificationMessageUpdateConnectionError">アップデートサーバーへの接続に失敗しました。ネットワーク接続を確認するか、後でもう一度お試しください。</system:String>
     <system:String x:Key="NotificationMessageUpdateFileHashError">アップデートサーバーからダウンロードしたファイルが破損しています。ネットワーク接続を確認するか、後でもう一度お試しください。</system:String>
+    <system:String x:Key="NotificationMessageUpdateMetadataError">アップデート確認失敗：メタデータが利用できません</system:String>
 
     <system:String x:Key="MsgBoxError">エラー</system:String>
     <system:String x:Key="MsgBoxInputError">入力値が正しくありません。</system:String>
@@ -418,5 +419,7 @@
 
     <system:String x:Key="StringNone">なし</system:String>
     <system:String x:Key="StringUnknownShip">不明な艦艇</system:String>
+    <system:String x:Key="LabelPlayerList">プレイヤーリスト</system:String>
+    <system:String x:Key="ChkBoxClearPlayerListAfterBattle">戦闘終了後にプレイヤーリストをクリア</system:String>
 
 </ResourceDictionary>

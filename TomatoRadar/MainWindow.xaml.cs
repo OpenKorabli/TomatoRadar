@@ -296,68 +296,117 @@ namespace TomatoRadar
 
         private bool _dataLoadInProgress;
         private string _currentBattleFilePath = "";
+        private string _korabliReplayPath = "";
         private long _currentBattleFileSize;
         private bool _isFogOfWarBattle;
-        private bool _fowScanInProgress;
+        private bool _incrementalScanInProgress;
         private readonly HashSet<string> _knownVehicleNames = new();
+        private string _lastBattleFilePath = "";
 
         private void Timer_Tick(object? sender, EventArgs e)
         {
-            if (_dataLoadInProgress)
-                return;
-
-            if (DataContext != null)
+            try
             {
-                if (_currentBattleFilePath != "" && File.Exists(_currentBattleFilePath))
+                if (_dataLoadInProgress)
+                    return;
+
+                if (DataContext != null)
                 {
-                    long currentSize = new FileInfo(_currentBattleFilePath).Length;
-                    if (currentSize < _currentBattleFileSize && currentSize < 50000)
+                    if (_currentBattleFilePath != "" && File.Exists(_currentBattleFilePath))
                     {
-                        LogUtils.WriteInfo($"Battle ended (file shrunk from {_currentBattleFileSize} to {currentSize} bytes). Resetting for next battle.");
-                        DataContext = null;
-                        _currentBattleFilePath = "";
-                        _currentBattleFileSize = 0;
-                        _isFogOfWarBattle = false;
-                        _knownVehicleNames.Clear();
-                        WinrateChart.Series = Array.Empty<ISeries>();
-                        KDEChart.Series = Array.Empty<ISeries>();
-                        TxtOutputText.Text = "";
-                        NotificationMessageUtils.CreateMessage(MessageType.INFO, FindResource("NotificationMessageWaitingForBattle") as string);
+                        long currentSize;
+                        if (_korabliReplayPath != "")
+                            currentSize = new FileInfo(_korabliReplayPath).Length;
+                        else
+                            currentSize = new FileInfo(_currentBattleFilePath).Length;
+
+                        if (_korabliReplayPath == "" && currentSize < _currentBattleFileSize && currentSize < 50000)
+                        {
+                            LogUtils.WriteInfo($"Battle ended (file shrunk from {_currentBattleFileSize} to {currentSize} bytes).");
+                            if (Properties.Settings.Default.ClearPlayerListAfterBattle)
+                            {
+                                ResetBattle();
+                            }
+                            else
+                            {
+                                _lastBattleFilePath = _currentBattleFilePath;
+                                _currentBattleFilePath = "";
+                                _korabliReplayPath = "";
+                                _currentBattleFileSize = 0;
+                                _isFogOfWarBattle = false;
+                                _knownVehicleNames.Clear();
+                            }
+                            return;
+                        }
+
+                        if (!_incrementalScanInProgress && currentSize > _currentBattleFileSize)
+                        {
+                            _currentBattleFileSize = currentSize;
+                            _ = IncrementalScanAsync();
+                        }
                         return;
                     }
 
-                    if (_isFogOfWarBattle && !_fowScanInProgress && currentSize > _currentBattleFileSize)
+                    if (_currentBattleFilePath != "" && !File.Exists(_currentBattleFilePath))
                     {
-                        _currentBattleFileSize = currentSize;
-                        _ = FogOfWarScanAsync();
+                        LogUtils.WriteInfo("Battle ended (temp file deleted).");
+                        if (Properties.Settings.Default.ClearPlayerListAfterBattle)
+                        {
+                            ResetBattle();
+                        }
+                        else
+                        {
+                            _lastBattleFilePath = _currentBattleFilePath;
+                            _currentBattleFilePath = "";
+                            _korabliReplayPath = "";
+                            _currentBattleFileSize = 0;
+                            _isFogOfWarBattle = false;
+                            _knownVehicleNames.Clear();
+                        }
+                    }
+
+                    if (_currentBattleFilePath == "")
+                    {
+                        string nextFileName = FileUtils.GetLatestTempArenaInfoFile(true);
+                        if (nextFileName != "" && nextFileName != _lastBattleFilePath)
+                        {
+                            ResetBattle();
+                            _currentBattleFilePath = nextFileName;
+                            _currentBattleFileSize = new FileInfo(nextFileName).Length;
+                            _dataLoadInProgress = true;
+                            ReadPlayersListAndGetDataFromServer(nextFileName);
+                        }
                     }
                     return;
                 }
 
-                if (_currentBattleFilePath != "" && !File.Exists(_currentBattleFilePath))
+                string latestFileName = FileUtils.GetLatestTempArenaInfoFile(true);
+                if (latestFileName != "")
                 {
-                    LogUtils.WriteInfo("Battle ended (temp file deleted). Resetting for next battle.");
-                    DataContext = null;
-                    _currentBattleFilePath = "";
-                    _currentBattleFileSize = 0;
-                    _isFogOfWarBattle = false;
-                    _knownVehicleNames.Clear();
-                    WinrateChart.Series = Array.Empty<ISeries>();
-                    KDEChart.Series = Array.Empty<ISeries>();
-                    TxtOutputText.Text = "";
-                    NotificationMessageUtils.CreateMessage(MessageType.INFO, FindResource("NotificationMessageWaitingForBattle") as string);
+                    _currentBattleFilePath = latestFileName;
+                    _currentBattleFileSize = new FileInfo(latestFileName).Length;
+                    _dataLoadInProgress = true;
+                    ReadPlayersListAndGetDataFromServer(latestFileName);
                 }
-                return;
             }
-
-            string latestFileName = FileUtils.GetLatestTempArenaInfoFile(true);
-            if (latestFileName != "")
+            catch (Exception ex)
             {
-                _currentBattleFilePath = latestFileName;
-                _currentBattleFileSize = new FileInfo(latestFileName).Length;
-                _dataLoadInProgress = true;
-                ReadPlayersListAndGetDataFromServer(latestFileName);
+                LogUtils.WriteError("Timer_Tick crashed", ex);
             }
+        }
+
+        private void ResetBattle()
+        {
+            DataContext = null;
+            _currentBattleFilePath = "";
+            _korabliReplayPath = "";
+            _currentBattleFileSize = 0;
+            _isFogOfWarBattle = false;
+            _knownVehicleNames.Clear();
+            WinrateChart.Series = Array.Empty<ISeries>();
+            KDEChart.Series = Array.Empty<ISeries>();
+            TxtOutputText.Text = "";
+            NotificationMessageUtils.CreateMessage(MessageType.INFO, FindResource("NotificationMessageWaitingForBattle") as string);
         }
 
         private async void ReadPlayersListAndGetDataFromServer(string filename)
@@ -393,8 +442,24 @@ namespace TomatoRadar
                     Server secondaryServer = ServerExt.GetServerByName(Properties.Settings.Default.SecondaryServer);
                     LogUtils.WriteInfo($"secondaryServer={ServerExt.GetNameByServer(secondaryServer)}");
 
+                    string dataPath = filename;
+                    if (server == Server.RU)
+                    {
+                        string? dir = Path.GetDirectoryName(filename);
+                        if (dir != null)
+                        {
+                            string korabliPath = Path.Combine(dir, "temp.korablireplay");
+                            if (File.Exists(korabliPath))
+                            {
+                                _korabliReplayPath = korabliPath;
+                                dataPath = korabliPath;
+                                _currentBattleFileSize = new FileInfo(korabliPath).Length;
+                            }
+                        }
+                    }
+
                     JObject JObjectWatchList = WatchListUtils.ReadWatchList(Path.Combine(App.DataDirectory, "WatchList.json"));
-                    JObject? JObjectTempArenaInfo = FileUtils.GetPlayerListJObject(server, filename);
+                    JObject? JObjectTempArenaInfo = FileUtils.GetPlayerListJObject(server, dataPath);
                     if (JObjectTempArenaInfo == null)
                         return;
 
@@ -495,7 +560,7 @@ namespace TomatoRadar
                         }
                     }
                     _isFogOfWarBattle = server == Server.RU
-                        ? FileUtils.ReadFogOfWarFlagFromKorabliReplayDir(filename) == 1
+                        ? FileUtils.ReadFogOfWarFlagFromKorabliReplayDir(_korabliReplayPath) == 1
                         : (JObjectTempArenaInfo["isFogOfWar"]?.Value<int>() ?? 0) == 1;
                     LogUtils.WriteInfo($"isFogOfWar={_isFogOfWarBattle}");
 
@@ -555,14 +620,18 @@ namespace TomatoRadar
             }
         }
 
-        private async Task FogOfWarScanAsync()
+        private async Task IncrementalScanAsync()
         {
-            _fowScanInProgress = true;
+            _incrementalScanInProgress = true;
             try
             {
                 string filename = _currentBattleFilePath;
                 if (string.IsNullOrEmpty(filename) || !File.Exists(filename))
                     return;
+
+                string dataPath = filename;
+                if (_korabliReplayPath != "")
+                    dataPath = _korabliReplayPath;
 
                 Server server = ServerExt.GetServerByName(Properties.Settings.Default.Server);
                 if (server == Server.AUTO)
@@ -570,7 +639,7 @@ namespace TomatoRadar
                     server = ServerExt.AutoDetectServer($@"{Properties.Settings.Default.GamePath}\profile\clientrunner.log");
                 }
 
-                JObject? JObjectTempArenaInfo = FileUtils.GetPlayerListJObject(server, filename);
+                JObject? JObjectTempArenaInfo = FileUtils.GetPlayerListJObject(server, dataPath);
                 if (JObjectTempArenaInfo == null)
                     return;
 
@@ -589,7 +658,8 @@ namespace TomatoRadar
                 if (newVehicleTokens.Count == 0)
                     return;
 
-                LogUtils.WriteInfo($"FogOfWar: {newVehicleTokens.Count} new vehicles detected");
+                var newVehicleNames = string.Join(", ", newVehicleTokens.Select(t => t["name"]!.Value<string>()));
+                LogUtils.WriteInfo($"IncrementalScan: {newVehicleTokens.Count} new vehicles detected: {newVehicleNames}");
 
                 JObject filteredJObject = new()
                 {
@@ -650,16 +720,18 @@ namespace TomatoRadar
                     DataContext = null;
                     DataContext = tmp;
 
-                    NotificationMessageUtils.CreateMessage(MessageType.INFO, string.Format((string)FindResource("NotificationMessageNewPlayersRevealed"), newPlayerList.Count));
+                    var newShipNames = string.Join(", ", newPlayerList.Take(5).Select(p => p.ShipName));
+                    if (newPlayerList.Count > 5) newShipNames += "...";
+                    NotificationMessageUtils.CreateMessage(MessageType.INFO, string.Format((string)FindResource("NotificationMessageNewPlayersRevealed"), newPlayerList.Count, newShipNames));
                 }
             }
             catch (Exception ex)
             {
-                LogUtils.WriteError("FogOfWar scan error", ex);
+                LogUtils.WriteError("IncrementalScan error", ex);
             }
             finally
             {
-                _fowScanInProgress = false;
+                _incrementalScanInProgress = false;
             }
         }
 

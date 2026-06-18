@@ -373,7 +373,7 @@
 
     <system:String x:Key="NotificationMessageCheckingForUpdates">Проверка обновлений...</system:String>
     <system:String x:Key="NotificationMessageWaitingForBattle">Ожидание боя или реплея...</system:String>
-    <system:String x:Key="NotificationMessageNewPlayersRevealed">Обнаружено новых игроков: {0}</system:String>
+    <system:String x:Key="NotificationMessageNewPlayersRevealed">Обнаружено {0} новых игроков: {1}</system:String>
     <system:String x:Key="NotificationMessageRetrivingData">Получение данных с сервера, пожалуйста, подождите...</system:String>
     <system:String x:Key="NotificationMessageDataRetrieved">Данные успешно получены.</system:String>
     <system:String x:Key="NotificationMessageFileError">Открытый файл не является действительным tempArenaInfo.json или .wowsreplay.</system:String>
@@ -392,6 +392,7 @@
     <system:String x:Key="NotificationMessageShiplistUpdateComplete">Обновление списка кораблей завершено.</system:String>
     <system:String x:Key="NotificationMessageUpdateConnectionError">Не удалось подключиться к серверу обновлений. Проверьте сетевое подключение или повторите попытку позже.</system:String>
     <system:String x:Key="NotificationMessageUpdateFileHashError">Файл, загруженный с сервера обновлений, повреждён. Проверьте сетевое подключение или повторите попытку позже.</system:String>
+    <system:String x:Key="NotificationMessageUpdateMetadataError">Ошибка проверки обновлений: метаданные недоступны</system:String>
 
     <system:String x:Key="MsgBoxError">Ошибка</system:String>
     <system:String x:Key="MsgBoxInputError">Введено неверное значение.</system:String>
@@ -419,5 +420,7 @@
 
     <system:String x:Key="StringNone">Нет</system:String>
     <system:String x:Key="StringUnknownShip">Неизвестный корабль</system:String>
+    <system:String x:Key="LabelPlayerList">Список игроков</system:String>
+    <system:String x:Key="ChkBoxClearPlayerListAfterBattle">Очищать список игроков после боя</system:String>
 
 </ResourceDictionary>

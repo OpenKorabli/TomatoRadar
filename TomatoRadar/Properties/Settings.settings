@@ -6,7 +6,7 @@
       <Value Profile="(Default)">2.1.0</Value>
     </Setting>
     <Setting Name="SoftwareDate" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">260529234607</Value>
+      <Value Profile="(Default)">260618181001</Value>
     </Setting>
     <Setting Name="SettingsUpgradeDone" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
@@ -159,6 +159,9 @@
       <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="DebugMode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ClearPlayerListAfterBattle" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
   </Settings>

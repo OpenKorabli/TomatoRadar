@@ -96,6 +96,8 @@
                                 <RowDefinition Height="70"/>
                                 <RowDefinition Height="10"/>
                                 <RowDefinition Height="40"/>
+                                <RowDefinition Height="10"/>
+                                <RowDefinition Height="40"/>
                                 <RowDefinition Height="40"/>
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
@@ -162,25 +164,31 @@
                                 </StackPanel>
                             </Grid>
                             <Grid Grid.Row="10" Grid.Column="1">
+                                <Label Content="{DynamicResource LabelPlayerList}" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                            </Grid>
+                            <Grid Grid.Row="10" Grid.Column="3" Grid.ColumnSpan="2">
+                                <CheckBox x:Name="ChkBoxClearPlayerListAfterBattle" Content="{DynamicResource ChkBoxClearPlayerListAfterBattle}" VerticalAlignment="Center" Margin="5"/>
+                            </Grid>
+                            <Grid Grid.Row="12" Grid.Column="1">
                                 <Label Content="{DynamicResource LabelSoftwareVersion}" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
                             </Grid>
-                            <Grid Grid.Row="10" Grid.Column="3">
+                            <Grid Grid.Row="12" Grid.Column="3">
                                 <TextBlock VerticalAlignment="Center" Margin="5">
                                     <Run Text="{Binding Source={x:Static p:Settings.Default},Mode=OneWay,Path=SoftwareVersion}"/>
                                     <Run Text="Build"/>
                                     <Run Text="{Binding Source={x:Static p:Settings.Default},Mode=OneWay,Path=SoftwareDate}"/>
                                 </TextBlock>
                             </Grid>
-                            <Grid Grid.Row="10" Grid.Column="4" Grid.RowSpan="2">
+                            <Grid Grid.Row="12" Grid.Column="4" Grid.RowSpan="2">
                                 <StackPanel Orientation="Horizontal">
                                     <Button x:Name="BtnCheckForUpdates" Content="{DynamicResource BtnCheckForUpdates}" Width="100" Height="50" HorizontalAlignment="Left" Margin="10" Click="BtnCheckForUpdates_Click"/>
                                     <CheckBox x:Name="ChkBoxCheckForUpdatesOnStartup" Content="{DynamicResource ChkBoxCheckForUpdatesOnStartup}" VerticalAlignment="Center" Margin="10"/>
                                 </StackPanel>
                             </Grid>
-                            <Grid Grid.Row="11" Grid.Column="1">
+                            <Grid Grid.Row="13" Grid.Column="1">
                                 <Label Content="{DynamicResource LabelShipListVersion}" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
                             </Grid>
-                            <Grid Grid.Row="11" Grid.Column="3">
+                            <Grid Grid.Row="13" Grid.Column="3">
                                 <Label x:Name="LabelShipListVersionDateStr" VerticalAlignment="Center"/>
                             </Grid>
                         </Grid>

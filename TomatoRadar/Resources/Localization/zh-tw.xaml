@@ -374,7 +374,7 @@
 
     <system:String x:Key="NotificationMessageCheckingForUpdates">正在檢查更新…</system:String>
     <system:String x:Key="NotificationMessageWaitingForBattle">正在等待對局或Replay…</system:String>
-    <system:String x:Key="NotificationMessageNewPlayersRevealed">{0} 名新玩家已偵測到</system:String>
+    <system:String x:Key="NotificationMessageNewPlayersRevealed">{0}個新玩家：{1}</system:String>
     <system:String x:Key="NotificationMessageRetrivingData">正在從伺服器獲取資料，請稍候…</system:String>
     <system:String x:Key="NotificationMessageDataRetrieved">資料獲取成功。</system:String>
     <system:String x:Key="NotificationMessageFileError">開啟的檔案不是合法的 tempArenaInfo.json 或 .wowsreplay 檔案。</system:String>
@@ -393,6 +393,7 @@
     <system:String x:Key="NotificationMessageShiplistUpdateComplete">艦艇名清單更新完成。</system:String>
     <system:String x:Key="NotificationMessageUpdateConnectionError">與更新伺服器的網路連線失敗，請檢查您的網路連線或稍後再試。</system:String>
     <system:String x:Key="NotificationMessageUpdateFileHashError">從更新伺服器下載的檔案已損壞，請檢查您的網路連線或稍後再試。</system:String>
+    <system:String x:Key="NotificationMessageUpdateMetadataError">更新檢查失敗：元資料不可用</system:String>
 
     <system:String x:Key="MsgBoxError">錯誤</system:String>
     <system:String x:Key="MsgBoxInputError">輸入的值不正確。</system:String>
@@ -420,5 +421,7 @@
 
     <system:String x:Key="StringNone">無</system:String>
     <system:String x:Key="StringUnknownShip">未知艦艇</system:String>
+    <system:String x:Key="LabelPlayerList">玩家列表</system:String>
+    <system:String x:Key="ChkBoxClearPlayerListAfterBattle">戰鬥結束後清空玩家列表</system:String>
 
 </ResourceDictionary>
