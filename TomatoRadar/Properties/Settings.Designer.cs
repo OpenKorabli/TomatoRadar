@@ -34,7 +34,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618182614")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618182900")]
         public string SoftwareDate {
             get {
                 return ((string)(this["SoftwareDate"]));
