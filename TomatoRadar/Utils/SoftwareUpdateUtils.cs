@@ -14,7 +14,7 @@ namespace TomatoRadar.Utils
 {
     static internal class SoftwareUpdateUtils
     {
-        const string MainMetadataUrl = "https://dl.localizedkorabli.org/tomatoradar/app/metadata.json";
+        const string MainMetadataUrl = "https://localizedkorabli.org/metadata/tomatoradar/metadata.json";
 
         static string DownloadDirectory => Path.Combine(App.DataDirectory, "Download");
 
