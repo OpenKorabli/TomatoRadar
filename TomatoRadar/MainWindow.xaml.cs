@@ -460,6 +460,7 @@ namespace TomatoRadar
 
                     JObject JObjectWatchList = WatchListUtils.ReadWatchList(Path.Combine(App.DataDirectory, "WatchList.json"));
                     JObject? JObjectTempArenaInfo = FileUtils.GetPlayerListJObject(server, dataPath);
+                    LogUtils.WriteInfo($"JObjectTempArenaInfo={(JObjectTempArenaInfo == null ? "null" : "ok")}");
                     if (JObjectTempArenaInfo == null)
                         return;
 
