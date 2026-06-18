@@ -122,7 +122,7 @@ $hadStash = ($LASTEXITCODE -eq 0)
 Write-Host "==> Committing version bump..." -ForegroundColor Cyan
 git diff --cached --quiet
 if ($LASTEXITCODE -eq 1) {
-    git commit -m "chore: bump version to $version"
+    git commit -m "chore: bump version to $version ($build)"
     if ($LASTEXITCODE -ne 0) { throw "Commit failed" }
 
     # check if remote origin exists
