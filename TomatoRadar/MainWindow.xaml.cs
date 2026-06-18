@@ -460,9 +460,8 @@ namespace TomatoRadar
 
                     JObject JObjectWatchList = WatchListUtils.ReadWatchList(Path.Combine(App.DataDirectory, "WatchList.json"));
                     JObject? JObjectTempArenaInfo = FileUtils.GetPlayerListJObject(server, dataPath);
-                    LogUtils.WriteInfo($"JObjectTempArenaInfo={(JObjectTempArenaInfo == null ? "null" : "ok")}");
                     if (JObjectTempArenaInfo == null)
-                        return;
+                        throw new FileFormatException("PlayerListJObjectIsNull");
 
                     string battleType = JObjectTempArenaInfo["matchGroup"]!.Value<string>()!;
                     DateTimeOffset battleStartTime = DateTimeOffset.ParseExact(JObjectTempArenaInfo["dateTime"]!.Value<string>()!, "dd.MM.yyyy HH:mm:ss", CultureInfo.CurrentCulture);
@@ -593,6 +592,7 @@ namespace TomatoRadar
                         "ServerAutoDetectionFailed" => NotificationMessageUtils.CreateMessage(MessageType.ERROR, FindResource("NotificationMessageServerAutoDetectionFailed") as string),
                         "HttpRequestFailed" => NotificationMessageUtils.CreateMessage(MessageType.ERROR, FindResource("NotificationMessageConnectionError") as string),
                         "JsonStringNotValid" => NotificationMessageUtils.CreateMessage(MessageType.ERROR, FindResource("NotificationMessageJsonError") as string),
+                        "PlayerListJObjectIsNull" => NotificationMessageUtils.CreateMessage(MessageType.INFO, FindResource("NotificationMessageRetrivingData") as string),
                         _ => NotificationMessageUtils.CreateMessage(MessageType.ERROR, FindResource("NotificationMessageOtherError") as string),
                     };
                     if (ex.Message == "FileFormatIncorrect" || ex.Message == "ServerAutoDetectionFailed")
