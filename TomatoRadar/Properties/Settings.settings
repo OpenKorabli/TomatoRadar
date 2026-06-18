@@ -6,7 +6,7 @@
       <Value Profile="(Default)">2.1.0</Value>
     </Setting>
     <Setting Name="SoftwareDate" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">260618181901</Value>
+      <Value Profile="(Default)">260618182346</Value>
     </Setting>
     <Setting Name="SettingsUpgradeDone" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
