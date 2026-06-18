@@ -1,11 +1,11 @@
 {
-    "software_latest_sha256":  "6CE96BB3D0B5ED33FF5859EC885A24F7787351E50B09302859E385098F02209E",
-    "software_latest_url":  "https://dl.localizedkorabli.org/tomatoradar/app/TomatoRadar_2.1.0.260618181001_Setup.exe",
+    "software_latest_sha256":  "ECAED6EC359FC95AD76B1DAEE0EACF4FE24E40237348501D6E6F4B6CD1D816B1",
+    "software_latest_url":  "https://dl.localizedkorabli.org/tomatoradar/app/TomatoRadar_2.1.0.260618181342_Setup.exe",
     "shiplist_metadata":  {
                               "wg":  "https://dl.localizedkorabli.org/tomatoradar/ships/wg.json",
                               "lesta":  "https://dl.localizedkorabli.org/tomatoradar/ships/lesta.json"
                           },
-    "software_latest_date":  "260618181001",
+    "software_latest_date":  "260618181342",
     "update_server_enabled":  true,
     "software_latest_version":  "2.1.0"
 }
