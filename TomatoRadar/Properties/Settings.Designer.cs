@@ -34,7 +34,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string SoftwareDate {
             get {
                 return ((string)(this["SoftwareDate"]));
@@ -43,7 +43,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public bool SettingsUpgradeDone {
             get {
                 return ((bool)(this["SettingsUpgradeDone"]));
@@ -55,7 +55,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string Server {
             get {
                 return ((string)(this["Server"]));
@@ -67,7 +67,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public bool SecondaryServerEnabled {
             get {
                 return ((bool)(this["SecondaryServerEnabled"]));
@@ -79,7 +79,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string SecondaryServer {
             get {
                 return ((string)(this["SecondaryServer"]));
@@ -91,7 +91,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string GamePath {
             get {
                 return ((string)(this["GamePath"]));
@@ -103,7 +103,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string Language {
             get {
                 return ((string)(this["Language"]));
@@ -115,7 +115,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string ShipNameLanguage {
             get {
                 return ((string)(this["ShipNameLanguage"]));
@@ -127,7 +127,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int MaximumRetryAttemptsOnError {
             get {
                 return ((int)(this["MaximumRetryAttemptsOnError"]));
@@ -139,7 +139,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public bool CheckForUpdatesOnStartup {
             get {
                 return ((bool)(this["CheckForUpdatesOnStartup"]));
@@ -151,7 +151,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int ColorStyle {
             get {
                 return ((int)(this["ColorStyle"]));
@@ -163,7 +163,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string TomatoIcon {
             get {
                 return ((string)(this["TomatoIcon"]));
@@ -175,7 +175,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string UnicumIcon {
             get {
                 return ((string)(this["UnicumIcon"]));
@@ -187,7 +187,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string HiddenIcon {
             get {
                 return ((string)(this["HiddenIcon"]));
@@ -199,7 +199,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string WatchIcon {
             get {
                 return ((string)(this["WatchIcon"]));
@@ -211,7 +211,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int AccountWinrateVisibility {
             get {
                 return ((int)(this["AccountWinrateVisibility"]));
@@ -223,7 +223,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int WeightedWinrateVisibility {
             get {
                 return ((int)(this["WeightedWinrateVisibility"]));
@@ -235,7 +235,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int ShipWinrateVisibility {
             get {
                 return ((int)(this["ShipWinrateVisibility"]));
@@ -247,7 +247,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int TagVisibility {
             get {
                 return ((int)(this["TagVisibility"]));
@@ -259,7 +259,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int AccountAvgExpVisibility {
             get {
                 return ((int)(this["AccountAvgExpVisibility"]));
@@ -271,7 +271,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int ShipAvgExpVisibility {
             get {
                 return ((int)(this["ShipAvgExpVisibility"]));
@@ -283,7 +283,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int ShipAvgDmgVisibility {
             get {
                 return ((int)(this["ShipAvgDmgVisibility"]));
@@ -295,7 +295,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public double PlayerColumnFontSize {
             get {
                 return ((double)(this["PlayerColumnFontSize"]));
@@ -307,7 +307,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public double StatisticsColumnFontSize {
             get {
                 return ((double)(this["StatisticsColumnFontSize"]));
@@ -319,7 +319,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public double DetailedStatisticsFontSize {
             get {
                 return ((double)(this["DetailedStatisticsFontSize"]));
@@ -331,7 +331,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public double OutputTextFontSize {
             get {
                 return ((double)(this["OutputTextFontSize"]));
@@ -343,7 +343,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public bool EnemiesDisplayMirrored {
             get {
                 return ((bool)(this["EnemiesDisplayMirrored"]));
@@ -355,7 +355,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int PlayerListSortBy {
             get {
                 return ((int)(this["PlayerListSortBy"]));
@@ -367,7 +367,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public bool PlayerNamesVisibility {
             get {
                 return ((bool)(this["PlayerNamesVisibility"]));
@@ -379,7 +379,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int WinrateChartType {
             get {
                 return ((int)(this["WinrateChartType"]));
@@ -391,7 +391,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int WinrateTypeUsed {
             get {
                 return ((int)(this["WinrateTypeUsed"]));
@@ -403,7 +403,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public double TomatoWinrateThreshold {
             get {
                 return ((double)(this["TomatoWinrateThreshold"]));
@@ -415,7 +415,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int TomatoBattleCountThreshold {
             get {
                 return ((int)(this["TomatoBattleCountThreshold"]));
@@ -427,7 +427,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public double UnicumWinrateThreshold {
             get {
                 return ((double)(this["UnicumWinrateThreshold"]));
@@ -439,7 +439,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int UnicumBattleCountThreshold {
             get {
                 return ((int)(this["UnicumBattleCountThreshold"]));
@@ -451,7 +451,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public double WeightedWinrateAccountSoloWeightMultiplier {
             get {
                 return ((double)(this["WeightedWinrateAccountSoloWeightMultiplier"]));
@@ -463,7 +463,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public double WeightedWinrateAccountDiv2WeightMultiplier {
             get {
                 return ((double)(this["WeightedWinrateAccountDiv2WeightMultiplier"]));
@@ -475,7 +475,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public double WeightedWinrateAccountDiv3WeightMultiplier {
             get {
                 return ((double)(this["WeightedWinrateAccountDiv3WeightMultiplier"]));
@@ -487,7 +487,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public double WeightedWinrateShipMaxWeight {
             get {
                 return ((double)(this["WeightedWinrateShipMaxWeight"]));
@@ -499,7 +499,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public int WeightedWinrateShipBattlesAtMaxWeight {
             get {
                 return ((int)(this["WeightedWinrateShipBattlesAtMaxWeight"]));
@@ -511,7 +511,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837" +
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907" +
             "cumList}。敌方下等马：{EnemyTomatoList}。敌方隐藏马：{EnemyHiddenList}。")]
         public string OutputTextTemplateGeneralStatistics {
             get {
@@ -524,7 +524,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string OutputTextDelimiter {
             get {
                 return ((string)(this["OutputTextDelimiter"]));
@@ -536,7 +536,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public bool OutputTextShortMode {
             get {
                 return ((bool)(this["OutputTextShortMode"]));
@@ -548,7 +548,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public bool OutputTextExcludeSelf {
             get {
                 return ((bool)(this["OutputTextExcludeSelf"]));
@@ -560,7 +560,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public bool OutputTextUnlock {
             get {
                 return ((bool)(this["OutputTextUnlock"]));
@@ -572,7 +572,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public bool OutputTextAutoCopy {
             get {
                 return ((bool)(this["OutputTextAutoCopy"]));
@@ -584,7 +584,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837" +
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907" +
             "Battles}场 {ShipWinrate}胜率 {ShipAvgDmg}场均。")]
         public string OutputTextTemplateParticularPlayerStatistics {
             get {
@@ -597,7 +597,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string APITypeSelectionDefault {
             get {
                 return ((string)(this["APITypeSelectionDefault"]));
@@ -609,7 +609,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string APITypeSelectionRU {
             get {
                 return ((string)(this["APITypeSelectionRU"]));
@@ -621,7 +621,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public string APITypeSelectionCN {
             get {
                 return ((string)(this["APITypeSelectionCN"]));
@@ -633,7 +633,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public bool YuyukoAPIPushEnabled {
             get {
                 return ((bool)(this["YuyukoAPIPushEnabled"]));
@@ -645,7 +645,7 @@ namespace TomatoRadar.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public bool DebugMode {
             get {
                 return ((bool)(this["DebugMode"]));
@@ -657,7 +657,7 @@ namespace TomatoRadar.Properties {
 
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618174837")]
+        [global::System.Configuration.DefaultSettingValueAttribute("260618175907")]
         public bool ClearPlayerListAfterBattle {
             get {
                 return ((bool)(this["ClearPlayerListAfterBattle"]));
