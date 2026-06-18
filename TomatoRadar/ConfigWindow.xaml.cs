@@ -62,6 +62,7 @@ namespace TomatoRadar
             TxtDelimiter.Text = Properties.Settings.Default.OutputTextDelimiter;
             ComboBoxServer.SelectedValue = Properties.Settings.Default.Server;
             BtnShipNameLanguagePriority.Content = System.Windows.Application.Current.FindResource("BtnConfigure");
+            ChkBoxClearPlayerListAfterBattle.IsChecked = Properties.Settings.Default.ClearPlayerListAfterBattle;
             ChkBoxCheckForUpdatesOnStartup.IsChecked = Properties.Settings.Default.CheckForUpdatesOnStartup;
             LabelShipListVersionDateStr.Content = $"{ShipInfoUtils.GetShipInfoVersion(Server.EU)} ({ShipInfoUtils.GetShipInfoDate(Server.EU)})";
         }
@@ -127,6 +128,7 @@ namespace TomatoRadar
                     Properties.Settings.Default.WeightedWinrateShipBattlesAtMaxWeight = WeightedWinrateShipBattlesAtMaxWeight;
                     Properties.Settings.Default.OutputTextDelimiter = TxtDelimiter.Text;
                     Properties.Settings.Default.Server = ComboBoxServer.SelectedValue.ToString();
+                    Properties.Settings.Default.ClearPlayerListAfterBattle = ChkBoxClearPlayerListAfterBattle.IsChecked ?? false;
                     Properties.Settings.Default.CheckForUpdatesOnStartup = ChkBoxCheckForUpdatesOnStartup.IsChecked ?? false;
                     Properties.Settings.Default.OutputTextUnlock = ChkBoxTextOutputUnlocked.IsChecked ?? false;
                     Properties.Settings.Default.Save();

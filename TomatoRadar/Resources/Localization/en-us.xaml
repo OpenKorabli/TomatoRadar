@@ -373,7 +373,7 @@
 
     <system:String x:Key="NotificationMessageCheckingForUpdates">Checking for updates...</system:String>
     <system:String x:Key="NotificationMessageWaitingForBattle">Waiting for battle or replay...</system:String>
-    <system:String x:Key="NotificationMessageNewPlayersRevealed">{0} new players detected</system:String>
+    <system:String x:Key="NotificationMessageNewPlayersRevealed">{0} new players: {1}</system:String>
     <system:String x:Key="NotificationMessageRetrivingData">Retrieving data from server, please wait...</system:String>
     <system:String x:Key="NotificationMessageDataRetrieved">Data retrieved successfully.</system:String>
     <system:String x:Key="NotificationMessageFileError">The file opened is not a valid tempArenaInfo.json or .wowsreplay file.</system:String>
@@ -419,5 +419,7 @@
 
     <system:String x:Key="StringNone">None</system:String>
     <system:String x:Key="StringUnknownShip">Unknown Ship</system:String>
+    <system:String x:Key="LabelPlayerList">Player list</system:String>
+    <system:String x:Key="ChkBoxClearPlayerListAfterBattle">Clear player list after battle ends</system:String>
 
 </ResourceDictionary>

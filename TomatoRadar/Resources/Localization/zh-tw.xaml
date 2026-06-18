@@ -374,7 +374,7 @@
 
     <system:String x:Key="NotificationMessageCheckingForUpdates">正在檢查更新…</system:String>
     <system:String x:Key="NotificationMessageWaitingForBattle">正在等待對局或Replay…</system:String>
-    <system:String x:Key="NotificationMessageNewPlayersRevealed">{0} 名新玩家已偵測到</system:String>
+    <system:String x:Key="NotificationMessageNewPlayersRevealed">{0}個新玩家：{1}</system:String>
     <system:String x:Key="NotificationMessageRetrivingData">正在從伺服器獲取資料，請稍候…</system:String>
     <system:String x:Key="NotificationMessageDataRetrieved">資料獲取成功。</system:String>
     <system:String x:Key="NotificationMessageFileError">開啟的檔案不是合法的 tempArenaInfo.json 或 .wowsreplay 檔案。</system:String>
@@ -420,5 +420,6 @@
 
     <system:String x:Key="StringNone">無</system:String>
     <system:String x:Key="StringUnknownShip">未知艦艇</system:String>
+    <system:String x:Key="LabelPlayerList">玩家列表</system:String>
 
 </ResourceDictionary>

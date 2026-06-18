@@ -372,7 +372,7 @@
 
     <system:String x:Key="NotificationMessageCheckingForUpdates">アップデートを確認中…</system:String>
     <system:String x:Key="NotificationMessageWaitingForBattle">戦闘またはリプレイを待機中…</system:String>
-    <system:String x:Key="NotificationMessageNewPlayersRevealed">{0}人の新しいプレイヤーを検出</system:String>
+    <system:String x:Key="NotificationMessageNewPlayersRevealed">{0}人の新プレイヤー：{1}</system:String>
     <system:String x:Key="NotificationMessageRetrivingData">サーバーからデータを取得中です。お待ちください…</system:String>
     <system:String x:Key="NotificationMessageDataRetrieved">データが正常に取得されました。</system:String>
     <system:String x:Key="NotificationMessageFileError">開かれたファイルは有効なtempArenaInfo.jsonまたは.wowsreplayファイルではありません。</system:String>
@@ -418,5 +418,6 @@
 
     <system:String x:Key="StringNone">なし</system:String>
     <system:String x:Key="StringUnknownShip">不明な艦艇</system:String>
+    <system:String x:Key="LabelPlayerList">プレイヤーリスト</system:String>
 
 </ResourceDictionary>
