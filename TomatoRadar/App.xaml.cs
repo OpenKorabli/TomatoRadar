@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using RestoreWindowPlace;
@@ -18,6 +19,19 @@ namespace TomatoRadar
 
         public App()
         {
+            AppDomain.CurrentDomain.UnhandledException += (s, e) =>
+            {
+                try { File.AppendAllText(Path.Combine(DataDirectory, "Log", "Crash.txt"), $"{DateTimeOffset.Now}: {(e.ExceptionObject as Exception)?.ToString()}\n"); } catch { }
+            };
+            this.DispatcherUnhandledException += (s, e) =>
+            {
+                try { File.AppendAllText(Path.Combine(DataDirectory, "Log", "Crash.txt"), $"{DateTimeOffset.Now}: {e.Exception}\n"); } catch { }
+            };
+            TaskScheduler.UnobservedTaskException += (s, e) =>
+            {
+                try { File.AppendAllText(Path.Combine(DataDirectory, "Log", "Crash.txt"), $"{DateTimeOffset.Now}: {e.Exception}\n"); } catch { }
+            };
+
             Directory.CreateDirectory(DataDirectory);
             Directory.CreateDirectory(Path.Combine(DataDirectory, "Log"));
             Directory.CreateDirectory(ShipInfoDirectory);

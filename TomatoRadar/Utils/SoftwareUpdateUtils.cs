@@ -14,7 +14,7 @@ namespace TomatoRadar.Utils
 {
     static internal class SoftwareUpdateUtils
     {
-        const string MainMetadataUrl = "https://dl.localizedkorabli.org/tomatoradar/app/metadata.json";
+        const string MainMetadataUrl = "https://localizedkorabli.org/metadata/tomatoradar/metadata.json";
 
         static string DownloadDirectory => Path.Combine(App.DataDirectory, "Download");
 
@@ -151,6 +151,7 @@ namespace TomatoRadar.Utils
                 {
                     "HttpRequestFailed" => NotificationMessageUtils.CreateMessage(MessageType.ERROR, Application.Current.FindResource("NotificationMessageUpdateConnectionError") as string),
                     "FileHashInvalid" => NotificationMessageUtils.CreateMessage(MessageType.ERROR, Application.Current.FindResource("NotificationMessageUpdateFileHashError") as string),
+                    "JsonStringNotValid" => NotificationMessageUtils.CreateMessage(MessageType.ERROR, Application.Current.FindResource("NotificationMessageUpdateMetadataError") as string),
                     _ => NotificationMessageUtils.CreateMessage(MessageType.ERROR, Application.Current.FindResource("NotificationMessageOtherError") as string),
                 };
                 return true;

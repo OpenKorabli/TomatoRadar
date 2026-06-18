@@ -373,7 +373,7 @@
 
     <system:String x:Key="NotificationMessageCheckingForUpdates">Checking for updates...</system:String>
     <system:String x:Key="NotificationMessageWaitingForBattle">Waiting for battle or replay...</system:String>
-    <system:String x:Key="NotificationMessageNewPlayersRevealed">{0} new players detected</system:String>
+    <system:String x:Key="NotificationMessageNewPlayersRevealed">{0} new players: {1}</system:String>
     <system:String x:Key="NotificationMessageRetrivingData">Retrieving data from server, please wait...</system:String>
     <system:String x:Key="NotificationMessageDataRetrieved">Data retrieved successfully.</system:String>
     <system:String x:Key="NotificationMessageFileError">The file opened is not a valid tempArenaInfo.json or .wowsreplay file.</system:String>
@@ -392,6 +392,7 @@
     <system:String x:Key="NotificationMessageShiplistUpdateComplete">Shiplist update complete.</system:String>
     <system:String x:Key="NotificationMessageUpdateConnectionError">The connection to the update server has failed. Please check your network connection or try again later.</system:String>
     <system:String x:Key="NotificationMessageUpdateFileHashError">The file downloaded from the update server is corrupted. Please check your network connection or try again later.</system:String>
+    <system:String x:Key="NotificationMessageUpdateMetadataError">Update check failed: metadata unavailable</system:String>
 
     <system:String x:Key="MsgBoxError">Error</system:String>
     <system:String x:Key="MsgBoxInputError">Input value is Incorrect.</system:String>
@@ -419,5 +420,7 @@
 
     <system:String x:Key="StringNone">None</system:String>
     <system:String x:Key="StringUnknownShip">Unknown Ship</system:String>
+    <system:String x:Key="LabelPlayerList">Player list</system:String>
+    <system:String x:Key="ChkBoxClearPlayerListAfterBattle">Clear player list after battle ends</system:String>
 
 </ResourceDictionary>

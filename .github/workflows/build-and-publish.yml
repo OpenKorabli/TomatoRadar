@@ -1,0 +1,38 @@
+name: Publish Release to R2
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download NSIS installer from Release
+        shell: bash
+        run: |
+          gh release download "${{ github.ref_name }}" \
+            --repo "${{ github.repository }}" \
+            --pattern "*_Setup.exe"
+          FILE_NAME=$(ls *_Setup.exe | head -1)
+          echo "FILE_NAME=$FILE_NAME" >> $GITHUB_ENV
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Upload to R2
+        shell: bash
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_KEY }}
+          AWS_DEFAULT_REGION: auto
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+        run: |
+          aws s3 cp "$FILE_NAME" "s3://$R2_BUCKET/tomatoradar/app/$FILE_NAME" \
+            --endpoint-url "$R2_ENDPOINT"
+
+      - name: Trigger Cloudflare Pages deploy hook
+        run: curl -X POST -s "${{ secrets.CF_PAGES_DEPLOY_HOOK }}"
