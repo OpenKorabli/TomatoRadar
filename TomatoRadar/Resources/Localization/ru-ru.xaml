@@ -392,6 +392,7 @@
     <system:String x:Key="NotificationMessageShiplistUpdateComplete">Обновление списка кораблей завершено.</system:String>
     <system:String x:Key="NotificationMessageUpdateConnectionError">Не удалось подключиться к серверу обновлений. Проверьте сетевое подключение или повторите попытку позже.</system:String>
     <system:String x:Key="NotificationMessageUpdateFileHashError">Файл, загруженный с сервера обновлений, повреждён. Проверьте сетевое подключение или повторите попытку позже.</system:String>
+    <system:String x:Key="NotificationMessageUpdateMetadataError">Ошибка проверки обновлений: метаданные недоступны</system:String>
 
     <system:String x:Key="MsgBoxError">Ошибка</system:String>
     <system:String x:Key="MsgBoxInputError">Введено неверное значение.</system:String>

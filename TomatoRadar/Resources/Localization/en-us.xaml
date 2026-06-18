@@ -392,6 +392,7 @@
     <system:String x:Key="NotificationMessageShiplistUpdateComplete">Shiplist update complete.</system:String>
     <system:String x:Key="NotificationMessageUpdateConnectionError">The connection to the update server has failed. Please check your network connection or try again later.</system:String>
     <system:String x:Key="NotificationMessageUpdateFileHashError">The file downloaded from the update server is corrupted. Please check your network connection or try again later.</system:String>
+    <system:String x:Key="NotificationMessageUpdateMetadataError">Update check failed: metadata unavailable</system:String>
 
     <system:String x:Key="MsgBoxError">Error</system:String>
     <system:String x:Key="MsgBoxInputError">Input value is Incorrect.</system:String>

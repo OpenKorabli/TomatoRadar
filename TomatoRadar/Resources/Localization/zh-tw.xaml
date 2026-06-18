@@ -393,6 +393,7 @@
     <system:String x:Key="NotificationMessageShiplistUpdateComplete">艦艇名清單更新完成。</system:String>
     <system:String x:Key="NotificationMessageUpdateConnectionError">與更新伺服器的網路連線失敗，請檢查您的網路連線或稍後再試。</system:String>
     <system:String x:Key="NotificationMessageUpdateFileHashError">從更新伺服器下載的檔案已損壞，請檢查您的網路連線或稍後再試。</system:String>
+    <system:String x:Key="NotificationMessageUpdateMetadataError">更新檢查失敗：元資料不可用</system:String>
 
     <system:String x:Key="MsgBoxError">錯誤</system:String>
     <system:String x:Key="MsgBoxInputError">輸入的值不正確。</system:String>

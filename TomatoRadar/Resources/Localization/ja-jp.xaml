@@ -391,6 +391,7 @@
     <system:String x:Key="NotificationMessageShiplistUpdateComplete">艦艇リストのアップデートが完了しました。</system:String>
     <system:String x:Key="NotificationMessageUpdateConnectionError">アップデートサーバーへの接続に失敗しました。ネットワーク接続を確認するか、後でもう一度お試しください。</system:String>
     <system:String x:Key="NotificationMessageUpdateFileHashError">アップデートサーバーからダウンロードしたファイルが破損しています。ネットワーク接続を確認するか、後でもう一度お試しください。</system:String>
+    <system:String x:Key="NotificationMessageUpdateMetadataError">アップデート確認失敗：メタデータが利用できません</system:String>
 
     <system:String x:Key="MsgBoxError">エラー</system:String>
     <system:String x:Key="MsgBoxInputError">入力値が正しくありません。</system:String>
