@@ -48,15 +48,15 @@ foreach ($file in @($appConfigFile)) {
 Write-Host "==> Syncing Settings.Designer.cs default value..." -ForegroundColor Cyan
 $lines = Get-Content $designerFile -Encoding UTF8
 $newLines = @()
-$swFound = $false
+$replacedCount = 0
 foreach ($line in $lines) {
-    if ($line -match 'DefaultSettingValueAttribute\("') {
-        if ($swFound) {
-            $line = $line -replace '"[^"]*"', "`"$build`""
-        } else {
+    if ($line -match 'DefaultSettingValueAttribute\("' -and $replacedCount -lt 2) {
+        if ($replacedCount -eq 0) {
             $line = $line -replace '"[^"]*"', "`"$version`""
-            $swFound = $true
+        } else {
+            $line = $line -replace '"[^"]*"', "`"$build`""
         }
+        $replacedCount++
     }
     $newLines += $line
 }

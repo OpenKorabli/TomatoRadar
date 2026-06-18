@@ -657,7 +657,7 @@ namespace TomatoRadar.Properties {
 
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("260618182614")]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool ClearPlayerListAfterBattle {
             get {
                 return ((bool)(this["ClearPlayerListAfterBattle"]));
