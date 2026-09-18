@@ -303,6 +303,15 @@ namespace TomatoRadar
         private readonly HashSet<string> _knownVehicleNames = new();
         private string _lastBattleFilePath = "";
 
+        // A 24 player battle costs about 144 HTTP requests per load attempt. The original code
+        // retried as soon as the arena file changed again - roughly once per second while a battle
+        // is running - so a struggling statistics backend was hammered for the whole battle with
+        // no upper bound. Retries now back off exponentially and stop after a few tries.
+        private const int MaxBattleLoadAttempts = 6;
+        private int _battleLoadAttempts;
+        private DateTime _nextLoadAttemptUtc = DateTime.MinValue;
+        private bool _battleLoadGaveUp;
+
         private void Timer_Tick(object? sender, EventArgs e)
         {
             try
@@ -310,8 +319,40 @@ namespace TomatoRadar
                 if (_dataLoadInProgress)
                     return;
 
+                // Data is on screen, so this battle finished loading: clear the retry state.
                 if (DataContext != null)
                 {
+                    _battleLoadAttempts = 0;
+                    _nextLoadAttemptUtc = DateTime.MinValue;
+                    _battleLoadGaveUp = false;
+                }
+
+                if (DataContext != null)
+                {
+                    // The Lesta client deletes temp.korablireplay when a battle ends, but the
+                    // original code kept probing that stale path in the size check below. It
+                    // threw FileNotFoundException once per second for the rest of the session
+                    // (see "Timer_Tick crashed" in the log) and no later battle was ever
+                    // detected again. Treat the file disappearing as "battle ended".
+                    if (_korabliReplayPath != "" && !File.Exists(_korabliReplayPath))
+                    {
+                        LogUtils.WriteInfo("Battle ended (korabli replay file removed).");
+                        if (Properties.Settings.Default.ClearPlayerListAfterBattle)
+                        {
+                            ResetBattle();
+                        }
+                        else
+                        {
+                            _lastBattleFilePath = "";
+                            _currentBattleFilePath = "";
+                            _korabliReplayPath = "";
+                            _currentBattleFileSize = 0;
+                            _isFogOfWarBattle = false;
+                            _knownVehicleNames.Clear();
+                        }
+                        return;
+                    }
+
                     if (_currentBattleFilePath != "" && File.Exists(_currentBattleFilePath))
                     {
                         long currentSize;
@@ -371,6 +412,9 @@ namespace TomatoRadar
                         if (nextFileName != "" && nextFileName != _lastBattleFilePath)
                         {
                             ResetBattle();
+                            _battleLoadAttempts = 0;
+                            _nextLoadAttemptUtc = DateTime.MinValue;
+                            _battleLoadGaveUp = false;
                             _currentBattleFilePath = nextFileName;
                             _currentBattleFileSize = new FileInfo(nextFileName).Length;
                             _dataLoadInProgress = true;
@@ -383,6 +427,25 @@ namespace TomatoRadar
                 string latestFileName = FileUtils.GetLatestTempArenaInfoFile(true);
                 if (latestFileName != "")
                 {
+                    if (_battleLoadAttempts >= MaxBattleLoadAttempts)
+                    {
+                        if (!_battleLoadGaveUp)
+                        {
+                            _battleLoadGaveUp = true;
+                            LogUtils.WriteInfo($"Giving up on this battle after {_battleLoadAttempts} attempts. Press Refresh to try again.");
+                            NotificationMessageUtils.CreateMessage(MessageType.ERROR, FindResource("NotificationMessageMaximumAttemptsReached") as string);
+                        }
+                        return;
+                    }
+
+                    if (DateTime.UtcNow < _nextLoadAttemptUtc)
+                        return;
+
+                    _battleLoadAttempts++;
+                    double backoffSeconds = Math.Min(60, 5 * Math.Pow(2, _battleLoadAttempts - 1));
+                    _nextLoadAttemptUtc = DateTime.UtcNow.AddSeconds(backoffSeconds);
+                    LogUtils.WriteInfo($"Battle load attempt {_battleLoadAttempts}/{MaxBattleLoadAttempts}, next retry in {backoffSeconds:0}s");
+
                     _currentBattleFilePath = latestFileName;
                     _currentBattleFileSize = new FileInfo(latestFileName).Length;
                     _dataLoadInProgress = true;
@@ -758,6 +821,10 @@ namespace TomatoRadar
             string latestFileName = FileUtils.GetLatestTempArenaInfoFile(false);
             if (latestFileName != "")
             {
+                // Manual retry: clear the backoff so the user can force another attempt.
+                _battleLoadAttempts = 0;
+                _nextLoadAttemptUtc = DateTime.MinValue;
+                _battleLoadGaveUp = false;
                 ReadPlayersListAndGetDataFromServer(latestFileName);
             }
         }
@@ -772,6 +839,9 @@ namespace TomatoRadar
                 WinrateChart.Series = Array.Empty<ISeries>();
                 KDEChart.Series = Array.Empty<ISeries>();
                 TxtOutputText.Text = "";
+                _battleLoadAttempts = 0;
+                _nextLoadAttemptUtc = DateTime.MinValue;
+                _battleLoadGaveUp = false;
                 _currentBattleFilePath = dialog.FileName;
                 _currentBattleFileSize = new FileInfo(dialog.FileName).Length;
                 _dataLoadInProgress = true;
